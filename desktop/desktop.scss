@@ -50,3 +50,29 @@
 .category-breadcrumb {
   margin-top: -0.4em; // vertical alignment
 }
+
+
+#topic-progress-wrapper{
+  .topic-admin-menu-button-container{
+    .topic-admin-menu-button{
+      button{
+        svg{
+          color:white
+        }
+      }
+    }
+  }
+}
+
+#topic-footer-buttons .btn:last-child{
+  svg{
+    color: white;
+  }
+}
+
+#topic-footer-buttons .topic-notifications-button .reason .select-kit{
+  .select-kit-header{
+    color: white;
+  }
+}
+

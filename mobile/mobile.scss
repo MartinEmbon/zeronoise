@@ -204,9 +204,9 @@
 }
 
 .d-editor-textarea-wrapper textarea:focus-within {
-  outline:  none;
+  outline:  none !important;
 //  border-color: #719ECE;
-border: thin solid #4a13a0;
+border: thin solid #4a13a0 !important;
 
   //background-color: green;
 }

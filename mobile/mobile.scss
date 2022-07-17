@@ -28,7 +28,6 @@
   }
   .nav-pills {
     margin: 0 1rem;
-    color: white;
     .navigation-toggle {
       //border-radius: 2rem;
       overflow: hidden;
@@ -46,7 +45,9 @@
     border-bottom-right-radius: 0.2em;
     border-bottom-left-radius: 0.2em;
     background-color: #4a13a0;
-    color: red;
+      .toggle-link{
+        color: white;
+      }
 
     }
   }

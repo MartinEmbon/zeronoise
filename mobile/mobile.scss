@@ -187,3 +187,43 @@
 //     }
 //   }
 // }
+
+/*
+#reply-control #reply-title {
+  outline: #4a13a0 !important;
+  //border:1px solid #4a13a0 !important;
+}
+
+#reply-control .category-input .category-chooser .select-kit-header:focus {
+  outline: #4a13a0 !important;
+ 
+}
+
+#reply-control .mini-tag-chooser .select-kit-header:focus {
+ background-color: red;
+}
+
+.d-editor-textarea-wrapper textarea:focus-within {
+  outline:  none !important;
+//  border-color: #719ECE;
+border: thin solid #4a13a0 !important;
+
+  //background-color: green;
+}
+
+.d-editor-textarea-wrapper textarea {
+  outline: none !important
+}
+*/
+
+#topic-progress-wrapper{
+  .topic-admin-menu-button-container{
+    .topic-admin-menu-button{
+      button{
+        svg{
+          color:white
+        }
+      }
+    }
+  }
+}

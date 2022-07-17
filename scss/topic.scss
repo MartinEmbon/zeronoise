@@ -121,7 +121,8 @@ aside.onebox {
   padding-top: 0;
   margin-bottom: 1.25rem;
   h1 {
-    font-family: var(--heading-font-family);
+    //font-family: var(--heading-font-family);
+    font-family: var(--dgb-font-family);
     font-weight: bold;
     margin-bottom: 2rem;
     a {
@@ -144,7 +145,7 @@ aside.onebox {
 
 .d-header {
   .header-title a {
-    font-family: var(--heading-font-family);
+    font-family: var(--dgb-font-family);
   }
   .categories-wrapper,
   .topic-header-extra {

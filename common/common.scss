@@ -5,12 +5,26 @@
 // General
 .btn {
   //border-radius: 2rem;
-  border-radius: 1rem;
+  //border-radius: 1rem;
+  min-width: 220px;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-color: #4a13a0;
+    border-right-color: #4a13a0;
+    border-bottom-color: #4a13a0;
+    border-left-color: #4a13a0;
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    border-bottom-left-radius: 0.2em;
+    background-color: #4a13a0;
 }
 
 p {
   //line-height: 1.6;
-  font-family: "noto-sans-display";
+  font-family: var(--dgb-font-family);
     font-size: 1.3em;
     font-style: normal;
     font-weight: 400;
@@ -243,7 +257,7 @@ ol.category-breadcrumb {
 }
 
 .stats-title {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #4a13a0;
   font-size: 1rem;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
@@ -503,7 +517,8 @@ div.menu-links-header {
     }
     li a,
     li button {
-      color: inherit;
+      color: rgb(255,255,255);
+      font-family: var(--dgb-font-family);
       padding: 0.75rem 0.25rem;
       &:hover {
         background-color: var(--primary-low);

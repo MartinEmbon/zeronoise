@@ -161,8 +161,11 @@
 
 .submit-panel{
   #mobile-file-upload {
-    svg{
-      color: red;
+    a svg{
+      color: white;
     }
+  }
+  a svg{
+    color: white;
   }
 }

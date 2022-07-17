@@ -179,6 +179,10 @@
 
 }
 
-.reply-area > input {
-  outline: green;
+#reply-control {
+  .reply-area{
+    input {
+      background-color: red;
+    }
+  }
 }

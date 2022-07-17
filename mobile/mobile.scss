@@ -227,3 +227,17 @@ border: thin solid #4a13a0 !important;
     }
   }
 }
+
+#topic-footer-buttons {
+  .topic-footer-main-buttons{
+    .topic-admin-menu-button-container {
+      .topic-admin-menu-button{
+        .btn-icon{
+          svg{
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

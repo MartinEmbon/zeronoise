@@ -158,3 +158,17 @@ aside.onebox {
     display: none;
   }
 }
+
+#topic-footer-buttons {
+  .topic-footer-main-buttons{
+    .topic-admin-menu-button-container {
+      .topic-admin-menu-button{
+        .btn-icon{
+          svg{
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

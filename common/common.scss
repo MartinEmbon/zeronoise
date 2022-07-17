@@ -586,7 +586,10 @@ div.menu-links-header .menu-links-row li a.active {
       color: rgba(252,185,0,1);
     }
   }  
-  div > .alert-too-few-topics{
+  .alert-too-few-topics{
     color: orange;
   }
+}
+.alert-too-few-topics{
+  color: orange;
 }

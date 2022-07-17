@@ -64,9 +64,17 @@
   }
 }
 
-#topic-footer-buttons .btn:last-child{
-  svg{
-    color: white;
+#topic-footer-buttons {
+  .topic-footer-main-buttons{
+    .topic-admin-menu-button-container .ember-view{
+      .topic-admin-menu-button{
+        button{
+          svg{
+            color: white;
+          }
+        }
+      }
+    }
   }
 }
 

@@ -182,13 +182,13 @@
 #reply-control {
   .reply-area{
     input>:focus {
-      border-color: var(--dgb-blue-color);
+      border-color: var(--dgb-blue-color) !important;
     }
   }
 }
 
 #reply-control .category-input .category-chooser .select-kit-header:focus {
-  border: 1px solid red;
+  border: 1px solid red !important;
 }
 
 #reply-control .mini-tag-chooser .select-kit-header:focus {

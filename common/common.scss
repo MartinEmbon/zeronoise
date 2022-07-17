@@ -129,6 +129,7 @@ p {
 
 // List and Post
 .container {
+  background-color: white;
   &.list-container,
   .user-content {
     background-color: var(--main-background);
@@ -382,6 +383,7 @@ ol.category-breadcrumb {
 }
 
 .user-content .alert.alert-info {
+ color: white;
   height: 3rem;
   display: flex;
   justify-content: center;
@@ -394,10 +396,10 @@ ol.category-breadcrumb {
     font-style: normal;
     line-height: 1.3;
       font-weight: 700;
-  color: rgb(255,255,255);
+
   //background-color: transparent;
  // background-color: var(--dgb-green-color);
- background-color: var(--dgb-blue-color);
+ //background-color: var(--dgb-blue-color);
   //&::after {
     //content: "🤖";
   //}

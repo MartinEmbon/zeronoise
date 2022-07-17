@@ -22,7 +22,7 @@
 
 %btn--big {
   padding: 1rem 2rem;
-  background-color: red;
+  background-color: var(--dgb-blue-color);
 }
 
 :root {
@@ -119,7 +119,7 @@
   --dgb-font-family: "noto-sans-display", serif;
   --dgb-blue-color:#4a13a0;
   --dgb-green-color:#04a060;
-  --primary-high: #04a060;
+  //--primary-high: #04a060;
   --tertiary-low: #04a060;
 }
 

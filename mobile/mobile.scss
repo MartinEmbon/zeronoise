@@ -28,9 +28,26 @@
   }
   .nav-pills {
     margin: 0 1rem;
+    color: white;
     .navigation-toggle {
-      border-radius: 2rem;
+      //border-radius: 2rem;
       overflow: hidden;
+     // min-width: 220px;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-color: #4a13a0;
+    border-right-color: #4a13a0;
+    border-bottom-color: #4a13a0;
+    border-left-color: #4a13a0;
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    border-bottom-left-radius: 0.2em;
+    background-color: #4a13a0;
+    color: red;
+
     }
   }
   #create-topic {
@@ -72,8 +89,14 @@
   }
   &.posts > .row {
     max-width: calc(100vw - 3rem);
+    
   }
 }
+
+.row > span {
+  color: yellow;
+}
+
 
 .category-list-item {
   border-right: 1px solid var(--primary-low) !important;

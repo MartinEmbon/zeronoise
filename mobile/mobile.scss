@@ -172,11 +172,9 @@
   }
 }
 
-.composer-controls{
-  .ember-view{
-    svg{
+.composer-controls > svg{
+  
       color: white;
-    }
-    
-  }
+  
+
 }

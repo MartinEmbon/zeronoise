@@ -6,7 +6,7 @@
 .btn {
   //border-radius: 2rem;
   //border-radius: 1rem;
-  min-width: 220px;
+    min-width: 220px;
     border-top-width: 3px;
     border-right-width: 3px;
     border-bottom-width: 3px;
@@ -84,8 +84,26 @@ p {
     position: relative;
     background-color: $tertiary;
     color: var(--light-accent);
+
+    // min-width: 220px;
+    // border-top-width: 3px;
+    // border-right-width: 3px;
+    // border-bottom-width: 3px;
+    // border-left-width: 3px;
+    // border-top-color: #4a13a0;
+    // border-right-color: #4a13a0;
+    // border-bottom-color: #4a13a0;
+    // border-left-color: #4a13a0;
+    // border-top-left-radius: 0.2em;
+    // border-top-right-radius: 0.2em;
+    // border-bottom-right-radius: 0.2em;
+    // border-bottom-left-radius: 0.2em;
+    // background-color: #4a13a0;
+
     .d-icon {
-      color: currentColor;
+      //color: currentColor;
+      color: orange;
+
     }
   }
   ol.category-breadcrumb {
@@ -133,7 +151,8 @@ p {
 }
 
 .d-header-icons .d-icon {
-  color: $header-primary;
+  //color: $header-primary;
+  color: orange;
   font-size: 1em;
 }
 
@@ -319,10 +338,10 @@ ol.category-breadcrumb {
     padding-left: 65px;
   }
   .stream-topic-title {
-    font-family: var(--heading-font-family);
+    font-family: var(--dgb-font-family);
     font-size: 1.1rem;
     a {
-      color: inherit;
+      color: #4a13a0;
     }
     a:visited {
       color: inherit;
@@ -380,7 +399,7 @@ ol.category-breadcrumb {
   }
   &.dropdown-select-box.is-expanded {
     .select-kit-body {
-      border-radius: 0.5rem;
+      border-radius: 0;
     }
   }
   .select-kit-collection {
@@ -409,6 +428,7 @@ ol.category-breadcrumb {
   .period-chooser-row {
     font-weight: normal;
     padding: 0.5rem 1rem;
+    color: white;
     .top-date-string {
       display: block;
       font-size: 0.75rem;
@@ -431,6 +451,7 @@ ol.category-breadcrumb {
     .d-icon {
       margin: 0;
       font-size: 1rem;
+      color: white;
     }
   }
 }
@@ -444,8 +465,10 @@ ol.category-breadcrumb {
     border-radius: 50%;
     background-color: var(--tertiary);
     border-color: transparent;
+    
     .d-icon {
-      color: var(--secondary);
+      //color: var(--secondary);
+      color: orange;
     }
   }
   .icon img.avatar {
@@ -475,6 +498,7 @@ ol.category-breadcrumb {
 
 #list-area .top-lists h2 {
   margin-bottom: 0;
+  color: #4a13a0;
 }
 
 #keyboard-shortcuts-help {

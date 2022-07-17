@@ -203,9 +203,11 @@
   //border:1px solid #4a13a0 !important;
 }
 
-.d-editor-textarea-wrapper textarea:focus {
+.d-editor-textarea-wrapper textarea:focus-within {
   outline: #4a13a0 !important;
 //  border-color: #719ECE;
+border: thin solid black;
+
   //background-color: green;
 }
 

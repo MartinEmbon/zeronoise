@@ -179,13 +179,18 @@
 
 }
 
-#reply-control {
-  .reply-area{
-    input:focus {
-      outline: none !important;
-     border:1px solid red;;
-    }
-  }
+// #reply-control {
+//   .reply-area{
+//     input:focus {
+//       outline: none !important;
+//      border:1px solid red;
+//     }
+//   }
+// }
+
+#reply-control #reply-title:focus {
+  outline: none !important;
+  border:1px solid green;
 }
 
 #reply-control .category-input .category-chooser .select-kit-header:focus {

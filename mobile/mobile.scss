@@ -28,6 +28,10 @@
   }
   .nav-pills {
     margin: 0 1rem;
+    li a .d-icon{
+      color: white;
+      opacity: 1;
+    }
     .navigation-toggle {
       //border-radius: 2rem;
       overflow: hidden;

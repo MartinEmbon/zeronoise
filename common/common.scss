@@ -175,7 +175,7 @@ ol.category-breadcrumb {
   align-items: center;
   position: relative;
   transition: all 0.2s;
-  background-color: red;
+  background-color: var(--dgb-blue-color);
 
   &::before {
     content: "";
@@ -426,6 +426,8 @@ ol.category-breadcrumb {
     }
     &.is-selected {
       background-color: var(--primary-low);
+      border: red;
+      outline: yellow;
       &.is-highlighted {
         background-color: var(--tertiary-low);
       }
@@ -555,7 +557,10 @@ div.menu-links-header {
       background-color: transparent;
       opacity: 0.7;
     }
-    li a,
+    li a {
+      color: rgb(255,255,255);
+
+    }
     li button {
       color: rgb(255,255,255);
       font-family: var(--dgb-font-family);
@@ -568,6 +573,8 @@ div.menu-links-header {
   .quick-access-profile {
     .read {
       opacity: 1;
+      color: rgb(255,255,255);
+
     }
   }
 }

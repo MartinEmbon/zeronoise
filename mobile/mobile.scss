@@ -181,20 +181,20 @@
 
 #reply-control {
   .reply-area{
-    input {
-      background-color: red;
+    input>:focus {
+      border-color: var(--dgb-blue-color);
     }
   }
 }
 
-#reply-control .category-input .category-chooser .select-kit-header {
-  background-color: green;
+#reply-control .category-input .category-chooser .select-kit-header:focus {
+  border-color: var(--dgb-blue-color);
 }
 
-#reply-control .mini-tag-chooser .select-kit-header {
-background-color: yellow;
+#reply-control .mini-tag-chooser .select-kit-header:focus {
+  border-color: var(--dgb-blue-color);
 }
 
-.d-editor-textarea-wrapper textarea {
-background-color: cyan;
+.d-editor-textarea-wrapper textarea:focus {
+  border-color: var(--dgb-blue-color);
 }

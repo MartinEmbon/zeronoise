@@ -190,20 +190,21 @@
 
 #reply-control #reply-title:focus {
   outline: none !important;
-  border:1px solid var(--dgb-blue-color) !important;
+  border:1px solid #4a13a0 !important;
 }
 
 #reply-control .category-input .category-chooser .select-kit-header:focus {
   outline: none !important;
-  border:1px solid var(--dgb-blue-color) !important;
+  border:1px solid #4a13a0 !important;
 }
 
 #reply-control .mini-tag-chooser .select-kit-header:focus {
   outline: none !important;
-  border:1px solid var(--dgb-blue-color) !important;
+  border:1px solid #4a13a0 !important;
 }
 
 .d-editor-textarea-wrapper textarea:focus {
   outline: none !important;
-  border:1px solid var(--dgb-blue-color) !important;
+  border:1px solid #4a13a0 !important;
+  background-color: green;
 }

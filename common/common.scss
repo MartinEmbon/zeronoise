@@ -586,13 +586,11 @@ div.menu-links-header .menu-links-row li a.active {
       color: rgba(252,185,0,1);
     }
   }  
-  .alert-too-few-topics{
-    color: white !important;
-      a{
-        color: rgba(252,185,0,1);
-      }
-  }
+
 }
 .alert-too-few-topics{
-  color: orange !important;
+  color: white !important;
+  a{
+    color: rgba(252,185,0,1);
+  }
 }

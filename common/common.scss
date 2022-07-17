@@ -393,9 +393,6 @@ ol.category-breadcrumb {
     font-style: normal;
     line-height: 1.3;
       font-weight: 700;
-  span{
-    color: white;
-  }
 }
 
 .select-kit {
@@ -580,4 +577,10 @@ div.menu-links-header {
 
 div.menu-links-header .menu-links-row li a.active {
   border-bottom-color: var(--main-background);
+}
+
+.alert.alert-info{
+  .text{
+    color: white;
+  }
 }

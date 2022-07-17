@@ -188,9 +188,13 @@
 }
 
 #reply-control .category-input .category-chooser .select-kit-header {
-  background-color: green($color: #000000);
+  background-color: green;
 }
 
 #reply-control .mini-tag-chooser .select-kit-header {
 background-color: yellow;
+}
+
+.d-editor-textarea-wrapper textarea {
+background-color: cyan;
 }

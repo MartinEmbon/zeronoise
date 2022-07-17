@@ -82,8 +82,10 @@ p {
   }
   .btn {
     position: relative;
-    background-color: $tertiary;
-    color: var(--light-accent);
+    //background-color: $tertiary;
+    background-color: var(--dgb-blue-color);
+    //color: var(--light-accent);
+    color: rgb(255,255,255);
 
     // min-width: 220px;
     // border-top-width: 3px;
@@ -343,7 +345,7 @@ ol.category-breadcrumb {
     font-family: var(--dgb-font-family);
     font-size: 1.1rem;
     a {
-      color: #4a13a0;
+      color: var(--dgb-blue-color);
     }
     a:visited {
       color: inherit;
@@ -395,7 +397,7 @@ ol.category-breadcrumb {
   color: rgb(255,255,255);
   //background-color: transparent;
  // background-color: var(--dgb-green-color);
- background-color: red;
+ background-color: var(--dgb-blue-color);
   //&::after {
     //content: "🤖";
   //}

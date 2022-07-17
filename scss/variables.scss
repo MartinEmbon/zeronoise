@@ -112,13 +112,15 @@
   // --discord-hover: #4a67cf;
   // --gold: #e7c300;
   // --silver: silver;
-  --main-background: var(yellow);
+  --main-background: #ee00ff;
   //--main-background: var(--quaternary);
   --light-accent: var(--quaternary);
   --heading-font-family: "Playfair Display", serif;
   --dgb-font-family: "noto-sans-display", serif;
   --dgb-blue-color:#4a13a0;
   --dgb-green-color:#04a060;
+  --primary-high: #04a060;
+  --tertiary-low: yellow;
 }
 
 $font-size-large: 3rem;

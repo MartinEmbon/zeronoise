@@ -582,5 +582,8 @@ div.menu-links-header .menu-links-row li a.active {
 .alert.alert-info{
   span{
     color: white;
+    span a{ 
+      color: red;
+    }
   }  
 }

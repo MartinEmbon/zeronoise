@@ -573,6 +573,17 @@ ol.category-breadcrumb {
   opacity: 1;
 }
 
+#quick-access-bookmarks{
+  ul{
+    div{
+      .empty-state{
+        span{
+          color: red;
+        }
+      }
+    }
+  }
+}
 
 #list-area .top-lists h2 {
   margin-bottom: 0;

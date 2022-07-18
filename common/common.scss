@@ -925,13 +925,22 @@ div.menu-links-header {
 
 
 #reply-control #reply-title {
-  background-color: grey !important;
+  background-color: lightgray !important;
+  &::placeholder{
+    color: white;
+  }
 }
 
 #reply-control .mini-tag-chooser .select-kit-header {
-  background-color: grey;
+  background-color: lightgray;
+  &::placeholder{
+    color: white;
+  }
 }
 
 #reply-control .category-input .category-chooser .select-kit-header {
-  background-color: grey;
+  background-color: lightgray;
+  &::placeholder{
+    color: white;
+  }
 }

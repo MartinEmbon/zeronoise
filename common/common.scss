@@ -918,10 +918,7 @@ div.menu-links-header {
   border-radius: 51%;
 }
 
-.d-header-icons .icon:last-child {
-  border-radius: 0%;
-}
 
 .menu-panel .panel-body-bottom .btn {
-  background-color: none !important;
+  background-color: var(--dgb-blue-color) !important;
 }

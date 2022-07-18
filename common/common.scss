@@ -845,12 +845,13 @@ div.menu-links-header {
 
 .category-title-header {
   &.category-banner-example-category {
-    background-color: var(--dgb-blue-color);   
-    border: 1px solid blue;
-    border-radius: 0;
+        background-color: red;
   }
 }
 
+.d-editor-container .d-editor-textarea-column .d-editor-textarea-wrapper .d-editor-button-bar .btn-icon{
+  background-color: var(--dgb-blue-color) !important;
+}
 .user-controls .btn{
   color: white;
 }

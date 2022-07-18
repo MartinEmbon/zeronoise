@@ -856,8 +856,14 @@ div.menu-links-header {
 }
 
 // editor container
-.d-editor-button-bar{
-  button{
-    background-color: red;
+.d-editor-container{
+  .d-editor-textarea-column{
+    .d-editor-textarea-wrapper  {
+      .d-editor-button-bar{
+        .btn-icon{
+          background-color: red;
+        }
+    }
   }
+}
 }

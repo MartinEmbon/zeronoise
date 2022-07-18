@@ -692,15 +692,15 @@ div.menu-links-header .menu-links-row button.active:hover{
   ul {
     li {
       a {
-        color: white;
+        color: var(--dgb-blue-color);
 
         svg {
-          color: white;
+          color: var(--dgb-blue-color);
         }
 
         div {
           span {
-            color: white;
+            color: var(--dgb-blue-color);
           }
         }
       }
@@ -865,7 +865,7 @@ div.menu-links-header {
 
 .search-menu .browser-search-tip, .search-menu .search-random-quick-tip{
   span{
-    color: white;
+    color: var(--dgb-blue-color);
   }
 }
 

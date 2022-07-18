@@ -521,16 +521,9 @@ ol.category-breadcrumb {
   }
 }
 
- .panel-body-contents{
-   .menu-links-header{
-    .menu-links-row{
-      .d-icon{
-        color: white;
-      }
-    }
-  }
- }
-.category-links{
+ 
+
+ .category-links{
   li{
     .categories-link{
       color: white;
@@ -542,6 +535,36 @@ ol.category-breadcrumb {
     }
   }
 }
+
+
+//profile burguer menu
+.panel-body-contents{
+  .menu-links-header{
+   .menu-links-row{
+     .d-icon{
+       color: white;
+     }
+   }
+ }
+}
+
+// div.menu-links-header .menu-links-row button.active .d-icon
+
+
+#quick-access-notifications{
+  ul{
+    li{
+      a{
+        color: white;
+        svg{
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+
 
 #list-area .top-lists h2 {
   margin-bottom: 0;

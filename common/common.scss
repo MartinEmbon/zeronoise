@@ -983,25 +983,25 @@ div.menu-links-header {
 .container-banner{
   position: absolute;
   top: 50%;
-  left: 60%;
+  left: 50%;
   transform: translate(-50%,-50%);
-  //color: #fff;
+  color: var(--dgb-blue-color); 
   font-weight: 700;
+  text-align: center;
   text-transform: uppercase;
   margin: 1rem 0; 
   h1{
     margin: 0;
-    font-size: 70px;
-    font-size: 700px;
-    color: var(--dgb-blue-color);    
+    font-size: 70px;   
+    span{
+      border:6px solid var(--dgb-blue-color);
+      font-size: 40px;
+      font-family: var(--dgb-font-family);
+      padding: 6px 14px;
+      display: inline-block;
+    }
   }
-  span{
-    border:6px solid var(--dgb-blue-color);
-    font-size: 40px;
-    font-family: var(--dgb-font-family);
-    padding: 6px 14px;
-    display: inline-block;
-  }
+ 
 }
 
 .cen{
@@ -1031,3 +1031,6 @@ div.menu-links-header {
     </div>
 </div>
 */
+#main-outlet{
+  padding-top: 0.5em;
+}

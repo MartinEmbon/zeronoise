@@ -531,6 +531,14 @@ ol.category-breadcrumb {
   }
 }
 
+.category-links{
+  li{
+    a{
+      color: white;
+    }
+  }
+}
+
 #list-area .top-lists h2 {
   margin-bottom: 0;
   color: var(--dgb-blue-color);

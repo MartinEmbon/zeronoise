@@ -58,6 +58,14 @@
   .nav-pills>li>a:hover{
     border-bottom-color: var(--dgb-orange-color)
   }
+
+  .nav-pills>li>a.active{
+    color: #2d2a3d;
+    background-color: transparent;
+    border-bottom-color: var(--dgb-blue-color);
+    font-weight: bold;
+  }
+
   #create-topic {
     position: fixed;
     bottom: 5vh;

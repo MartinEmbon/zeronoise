@@ -645,6 +645,9 @@ ol.category-breadcrumb {
 
 div.menu-links-header .menu-links-row button.active .d-icon {
   color: var(--dgb-orange-color);
+  border: none;
+  border-bottom: 1pxsolidvar(--secondary);
+  position: relative;
 }
 
 

@@ -89,6 +89,11 @@ p {
 }
 
 .list-controls {
+  .select-kit {
+    .combo-box-header{
+      background-color: none;
+    }
+  } 
   margin-bottom: 0;
 
   .nav,
@@ -125,6 +130,7 @@ p {
     }
   }
 
+  
   ol.category-breadcrumb {
     margin-bottom: 0;
     padding-left: 1rem;

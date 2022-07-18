@@ -829,3 +829,14 @@ div.menu-links-header {
     color: white;
   }
 }
+
+.nav-pills>li>a:hover{
+  border-bottom-color: var(--dgb-orange-color)
+}
+
+.nav-pills>li>a.active{
+  color: #2d2a3d;
+  background-color: transparent;
+  border-bottom-color: var(--dgb-blue-color) !important;
+  font-weight: bold;
+}

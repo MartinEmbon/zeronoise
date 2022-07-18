@@ -559,11 +559,19 @@ ol.category-breadcrumb {
         svg{
           color: white;
         }
+        div{
+          span{
+            color: red;
+          }
+        }
       }
     }
   }
 }
 
+.user-menu .quick-access-panel .read{
+  opacity: 1;
+}
 
 
 #list-area .top-lists h2 {

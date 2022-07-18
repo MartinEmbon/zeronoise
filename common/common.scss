@@ -533,7 +533,12 @@ ol.category-breadcrumb {
 
 .category-links{
   li{
-    a{
+    .categories-link{
+      color: white;
+    }
+  }
+  li{
+    span{
       color: white;
     }
   }

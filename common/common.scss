@@ -768,12 +768,12 @@ div.menu-links-header {
   }
 
   .alert.alert-info {
-    color: white !important;
+    
     span {
-      color: white;
+      color: white !important;
 
       span a {
-        color: rgba(252, 185, 0, 1);
+        color: rgba(252, 185, 0, 1) !important;
       }
     }
 

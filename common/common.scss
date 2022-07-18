@@ -562,7 +562,7 @@ ol.category-breadcrumb {
 }
 
 div.menu-links-header .menu-links-row button.active .d-icon{
-  color: red !important;
+  color: var(--dgb-orange-color);
 }
 
 
@@ -665,6 +665,16 @@ div.menu-links-header {
     }
   }
   .quick-access-profile {
+    ul{
+      li{
+        a{
+          color: white;
+          svg{
+            color: white;
+          }
+        }
+      }
+    }
     .read {
       opacity: 1;
       color: rgb(255,255,255);

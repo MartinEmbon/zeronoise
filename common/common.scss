@@ -970,6 +970,7 @@ div.menu-links-header {
 
 .container-total{
   width: 100%;
+  margin: 1rem 0;
 }
 .main-image{
   position: relative;
@@ -992,8 +993,7 @@ div.menu-links-header {
     margin: 0;
     font-size: 6em;
     font-size: 700px;
-    background-color: var(--dgb-blue-color);
-    color: white;
+    color: var(--dgb-blue-color);    
   }
   span{
     border:6px solid var(--dgb-blue-color);

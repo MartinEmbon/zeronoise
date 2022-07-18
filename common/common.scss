@@ -965,3 +965,59 @@ div.menu-links-header {
 .select-kit.single-select.dropdown-select-box {
   height: 100%;
 }
+
+// main banner
+.main-image{
+  position: relative;
+  background-color: url(../../dgb-main.jpg);
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+}
+
+.container-banner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  h1{
+    margin: 0;
+    font-size: 70px;
+  }
+  span{
+    border:6px solid white;
+    padding: 6px 14px;
+    display: inline-block;
+  }
+}
+
+.cen{
+  margin: 20px;
+  display: block;
+  font-size: 26px;
+}
+
+.button-banner{
+  color: #313131;
+  padding: 10px 24px;
+  background-color: #f1f1f1;
+  text-decoration: none;
+  border-radius: 12px;
+  transition:.6s;
+}
+
+.button-banner:hover{
+  opacity: .6;
+}
+/*
+<div class="main-image">
+    <div class="container-banner">
+        <h1><span>Banner</span></h1>
+        <span class="cen">Web Designer</span>
+        <a href="#" class="button-banner">Click here</a>
+    </div>
+</div>
+*/

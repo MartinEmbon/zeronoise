@@ -889,6 +889,8 @@ div.menu-links-header {
 
 .topic-list tbody tr{
   border-bottom: 1px solid var(--dgb-blue-color);
+  transition:none;
+  //:background-color 1s;
 }
 
 // editor container

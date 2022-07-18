@@ -220,12 +220,11 @@
 //   }
 // }
 
-/*
-#reply-control #reply-title {
-  outline: #4a13a0 !important;
-  //border:1px solid #4a13a0 !important;
-}
 
+reply-control #reply-title {
+  background-color: grey;
+}
+/*
 #reply-control .category-input .category-chooser .select-kit-header:focus {
   outline: #4a13a0 !important;
  

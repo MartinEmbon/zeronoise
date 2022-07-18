@@ -88,9 +88,7 @@ p {
   }
 }
 
-.list-controls .select-kit .combo-box-header {
-  background-color: none;
-}
+
 
 .list-controls {
   .select-kit {
@@ -104,6 +102,12 @@ p {
   .btn {
     margin-bottom: 0;
   }
+
+
+  .list-controls .select-kit .combo-box-header {
+    background-color: none !important;
+  }
+
 
   .btn {
     position: relative;

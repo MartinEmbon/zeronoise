@@ -541,16 +541,17 @@ ol.category-breadcrumb {
 .panel-body-contents{
   #quick-access-messages{
     ul{
-      li{
+      .read{
         a{
           color: white;
-          svg{
+          .svg-icon{
             color: white;
           }
         }
       }
     }
   }
+
   .menu-links-header{
    .menu-links-row{
      .d-icon{
@@ -560,7 +561,7 @@ ol.category-breadcrumb {
  }
 }
 
-.menu-links-header .menu-links-row button.active .d-icon{
+div.menu-links-header .menu-links-row button.active{
   color: red;
 }
 

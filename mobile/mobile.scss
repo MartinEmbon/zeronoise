@@ -52,8 +52,11 @@
       .toggle-link{
         color: white;
       }
-
     }
+  }
+
+  .nav-pills>li>a:hover{
+    border-bottom-color: var(--dgb-orange-color)
   }
   #create-topic {
     position: fixed;

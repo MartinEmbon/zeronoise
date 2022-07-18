@@ -909,3 +909,8 @@ div.menu-links-header {
 .admin-reports.admin-contents, .dashboard.admin-contents, .dashboard-next.admin-contents {
   padding: 15px 20px;
 }
+
+
+.d-header-icons .icon:hover, .d-header-icons .icon:focus, .d-header-icons .active .icon, .d-header-icons .active .icon:hover, .drop-down-mode .d-header-icons .icon:hover, .drop-down-mode .d-header-icons .icon:focus, .drop-down-mode .d-header-icons .active .icon, .drop-down-mode .d-header-icons .active .icon:hover{
+  border-radius: 51%;
+}

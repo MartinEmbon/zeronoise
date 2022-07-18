@@ -915,8 +915,11 @@ div.menu-links-header {
 
 
 .d-header-icons .icon {
-  
   border-radius: 51%;
+}
+
+.d-header-icons .icon:last-child {
+  border-radius: 0%;
 }
 
 .menu-panel .panel-body-bottom .btn {

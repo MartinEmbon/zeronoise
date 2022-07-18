@@ -221,7 +221,15 @@
 // }
 
 
-reply-control #reply-title {
+#reply-control #reply-title {
+  background-color: grey;
+}
+
+#reply-control .mini-tag-chooser .select-kit-header {
+  background-color: grey;
+}
+
+#reply-control .category-input .category-chooser .select-kit-header {
   background-color: grey;
 }
 /*

@@ -506,8 +506,19 @@ ol.category-breadcrumb {
   }
 }
 
-.panel-body-contents > div > ul > li > a{
+// more options burger menu
+.hamburger-panel a.widget-link{
   color: white;
+}
+
+.menu-container-admin-links{
+  ul{
+    li{
+      a{
+        color: white;
+      }
+    }
+  }
 }
 
 

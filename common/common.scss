@@ -578,17 +578,16 @@ ol.category-breadcrumb {
     div{
       .empty-state{
         .empty-state-title{
-          color: white;
-          .empty-state-title{
-            p{
+          color: white;          
+        }
+        .empty-state-body{
+          p{
+            color: white;
+            svg{
               color: white;
-              svg{
-                color: white;
-              }
             }
           }
         }
-        
       }
     }
   }

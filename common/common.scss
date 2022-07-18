@@ -670,7 +670,7 @@ ol.category-breadcrumb {
   .menu-links-row {
     .d-icon {
       color: var(--dgb-blue-color);
-      &:hover{
+      &.menu-links-row:hover{
         color: var(--dgb-orange-color);
       }
     }

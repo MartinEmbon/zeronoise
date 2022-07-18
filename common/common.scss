@@ -6,50 +6,50 @@
 .btn {
   //border-radius: 2rem;
   //border-radius: 1rem;
-    min-width: 220px;
-    border-top-width: 3px;
-    border-right-width: 3px;
-    border-bottom-width: 3px;
-    border-left-width: 3px;
-    border-top-color: #4a13a0;
-    border-right-color: #4a13a0;
-    border-bottom-color: #4a13a0;
-    border-left-color: #4a13a0;
-    border-top-left-radius: 0.2em;
-    border-top-right-radius: 0.2em;
-    border-bottom-right-radius: 0.2em;
-    border-bottom-left-radius: 0.2em;
-    background-color: #4a13a0;
+  min-width: 220px;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-top-color: #4a13a0;
+  border-right-color: #4a13a0;
+  border-bottom-color: #4a13a0;
+  border-left-color: #4a13a0;
+  border-top-left-radius: 0.2em;
+  border-top-right-radius: 0.2em;
+  border-bottom-right-radius: 0.2em;
+  border-bottom-left-radius: 0.2em;
+  background-color: #4a13a0;
 }
 
 p {
   //line-height: 1.6;
   font-family: var(--dgb-font-family);
-    font-size: 1.3em;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.3;
-    letter-spacing: 0em;
-    text-transform: none;
+  font-size: 1.3em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0em;
+  text-transform: none;
 }
 
 // Header
 .d-header {
   background-color: #4a13a0;
+
   #site-logo {
     max-height: 2em;
     max-width: 100%;
-    filter: invert(get_invert($logo-invert-colors))
-      hue-rotate(#{$logo-hue-rotation}deg)
-      brightness(calc((#{$logo-brightness} / 10) + 1));
+    filter: invert(get_invert($logo-invert-colors)) hue-rotate(#{$logo-hue-rotation}deg) brightness(calc((#{$logo-brightness} / 10) + 1));
   }
 }
 
 .nav-pills {
-  & > li {
+  &>li {
     margin-right: 0;
   }
-  & > li > a {
+
+  &>li>a {
     background-color: transparent;
     border-bottom-width: 5px;
     border-bottom-style: solid;
@@ -60,11 +60,13 @@ p {
     font-size: 0.75rem;
     letter-spacing: 0.05em;
     line-height: 1.7rem;
+
     &:hover {
       border-bottom-color: lighten($tertiary, 40);
       background-color: transparent;
       color: var(--primary);
     }
+
     &.active {
       color: lighten($primary, 0);
       background-color: transparent;
@@ -76,16 +78,18 @@ p {
 
 .list-controls {
   margin-bottom: 0;
+
   .nav,
   .btn {
     margin-bottom: 0;
   }
+
   .btn {
     position: relative;
     //background-color: $tertiary;
     background-color: var(--dgb-blue-color);
     //color: var(--light-accent);
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
 
     // min-width: 220px;
     // border-top-width: 3px;
@@ -104,21 +108,25 @@ p {
 
     .d-icon {
       //color: currentColor;
-      color: rgb(255,255,255);
+      color: rgb(255, 255, 255);
 
     }
   }
+
   ol.category-breadcrumb {
     margin-bottom: 0;
     padding-left: 1rem;
   }
+
   .select-kit {
     float: none;
+
     .name {
       text-transform: uppercase;
       font-size: 0.75rem;
       letter-spacing: 0.03em;
     }
+
     .combo-box-header {
       border: none;
       padding: 0;
@@ -130,13 +138,16 @@ p {
 // List and Post
 .container {
   background-color: white;
+
   &.list-container,
   .user-content {
     background-color: var(--main-background);
   }
+
   &.posts {
     margin-bottom: 2rem;
   }
+
   .user-content {
     border-radius: 0.5rem;
     padding: 2rem;
@@ -155,7 +166,7 @@ p {
 
 .d-header-icons .d-icon {
   //color: $header-primary;
-  color:rgb(255,255,255);
+  color: rgb(255, 255, 255);
   font-size: 1em;
 }
 
@@ -171,7 +182,7 @@ ol.category-breadcrumb {
 }
 
 #list-area .show-more.has-topics .alert {
- // background-color: rgba(240, 239, 246, 1);
+  // background-color: rgba(240, 239, 246, 1);
   border-radius: 2rem;
   align-items: center;
   position: relative;
@@ -187,6 +198,7 @@ ol.category-breadcrumb {
     border-radius: 50%;
     background-color: $danger;
   }
+
   &:hover {
     background-color: rgba(240, 239, 246, 0.6);
     text-decoration: underline;
@@ -204,17 +216,20 @@ ol.category-breadcrumb {
 }
 
 .badge {
+
   &-category-bg,
   &-wrapper.bullet &-category-parent-bg,
-  &-wrapper.bullet &-category-parent-bg + &-category-bg {
+  &-wrapper.bullet &-category-parent-bg+&-category-bg {
     border-radius: 50%;
     width: 9px;
   }
+
   &-category-parent-bg {
     position: relative;
     z-index: 2;
   }
-  &-wrapper.bullet &-category-parent-bg + &-category-bg {
+
+  &-wrapper.bullet &-category-parent-bg+&-category-bg {
     position: relative;
     z-index: 1;
     margin-left: -5px;
@@ -225,28 +240,34 @@ ol.category-breadcrumb {
   background: none !important; // This is a conscious override to the custom background behavior.
   border-radius: 0.5rem;
   overflow: hidden;
+
   .card-content {
     background-color: white;
     padding: 1.5rem 1rem;
   }
+
   .first-row {
     .user-card-avatar {
       margin-top: 0;
     }
+
     .names,
     .usercard-controls {
       align-self: center;
     }
   }
+
   .card-row:not(.first-row) {
     margin: 2rem 0 1rem;
     font-size: 12px;
     padding-left: 9.3rem;
     // display: none;
   }
+
   .badge-section {
     font-size: 12px;
     margin-left: -2px;
+
     .user-badge,
     .more-user-badges {
       border-radius: 16px;
@@ -291,6 +312,7 @@ ol.category-breadcrumb {
   display: grid;
   grid-gap: 3rem;
   grid-template-columns: repeat(2, 1fr);
+
   &:before {
     display: none;
   }
@@ -303,6 +325,7 @@ ol.category-breadcrumb {
 .badge-card {
   border: none;
   background: transparent;
+
   .badge-contents .badge-icon a {
     text-align: center;
     border: 5px solid #ccc;
@@ -315,21 +338,27 @@ ol.category-breadcrumb {
     width: 65px;
     box-shadow: inset -2px 0px 5px rgba(0, 0, 0, 0.3);
   }
+
   .badge-contents .badge-icon.badge-type-bronze a {
     @include badge($bronze);
   }
+
   .badge-contents .badge-icon.badge-type-gold a {
     @include badge($gold);
   }
+
   .badge-contents .badge-icon.badge-type-silver a {
     @include badge($silver);
   }
+
   .d-icon {
     width: 2rem;
   }
+
   .badge-summary {
     color: lighten($primary, 30);
   }
+
   .badge-contents .badge-info h3 {
     margin-bottom: 0;
   }
@@ -339,20 +368,25 @@ ol.category-breadcrumb {
   .avatar-wrapper {
     margin-right: 16px;
   }
+
   .excerpt {
     padding-left: 65px;
   }
+
   .stream-topic-title {
     font-family: var(--dgb-font-family);
     font-size: 1.1rem;
+
     a {
       color: var(--dgb-blue-color);
     }
+
     a:visited {
       color: inherit;
       opacity: 0.5;
     }
   }
+
   .excerpt {
     font-size: 0.85rem;
   }
@@ -364,10 +398,12 @@ ol.category-breadcrumb {
   align-items: center;
   height: 10rem;
   padding-top: 3rem;
+
   h3 {
     font-size: 1rem;
     font-weight: normal;
     color: lighten($primary, 40);
+
     &::after {
       content: "✨";
     }
@@ -383,16 +419,16 @@ ol.category-breadcrumb {
 }
 
 .user-content .alert.alert-info {
- color: white;
+  color: white;
   height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "noto-sans-display";
-    font-size: 1.3em;
-    font-style: normal;
-    line-height: 1.3;
-      font-weight: 700;
+  font-size: 1.3em;
+  font-style: normal;
+  line-height: 1.3;
+  font-weight: 700;
 }
 
 .select-kit {
@@ -403,40 +439,50 @@ ol.category-breadcrumb {
       box-shadow: 0 12px 12px rgba(0, 0, 0, 0.15);
     }
   }
+
   &.dropdown-select-box.is-expanded {
     .select-kit-body {
       border-radius: 0;
     }
   }
+
   .select-kit-collection {
     background-color: transparent;
   }
+
   .select-kit-row {
     padding: 1rem;
+
     &.is-highlighted {
       background-color: var(--primary-low);
     }
+
     &.is-selected {
       background-color: var(--primary-low);
       border: red;
       outline: yellow;
+
       &.is-highlighted {
         background-color: var(--tertiary-low);
       }
+
       .period-title .date-section {
         font-weight: bold;
       }
     }
+
     .date-section {
       font-size: 0.85rem;
     }
   }
 }
+
 .select-kit.dropdown-select-box.period-chooser {
   .period-chooser-row {
     font-weight: normal;
     padding: 0.5rem 1rem;
     color: white;
+
     .top-date-string {
       display: block;
       font-size: 0.75rem;
@@ -444,18 +490,22 @@ ol.category-breadcrumb {
       margin-left: 0;
     }
   }
+
   .period-chooser-header {
     border-radius: 0;
     margin-left: 0.6rem;
+
     // I have a personal standard of not going further than 2 indentation levels while creating scss rules
     h2.selected-name .top-date-string {
       font-size: 0.85rem;
       display: block;
       margin-top: 0.5em;
     }
+
     h2.selected-name .date-section {
       font-size: 1.2rem;
     }
+
     .d-icon {
       margin: 0;
       font-size: 1rem;
@@ -466,6 +516,7 @@ ol.category-breadcrumb {
 
 .d-header-icons,
 .drop-down-mode .d-header-icons {
+
   .icon:hover,
   .icon:focus,
   .active .icon,
@@ -473,12 +524,13 @@ ol.category-breadcrumb {
     border-radius: 50%;
     background-color: var(--tertiary);
     border-color: transparent;
-    
+
     .d-icon {
       //color: var(--secondary);
-      color: rgb(255,255,255);
+      color: rgb(255, 255, 255);
     }
   }
+
   .icon img.avatar {
     position: relative;
     top: -1px;
@@ -489,48 +541,52 @@ ol.category-breadcrumb {
   //background-color: var(--main-background);
   background-color: var(--dgb-blue-color);
   border-radius: 0.5rem;
+
   li {
     a {
       transition: all 0.2s;
-      color: rgb(255,255,255);
+      color: rgb(255, 255, 255);
     }
+
     a.widget-link:hover {
       background-color: var(--tertiary);
       //color: var(--light-accent);
-      color: rgb(255,255,255);
+      color: rgb(255, 255, 255);
+
       .d-icon {
         //color: var(--light-accent);
-        color: rgb(255,255,255);
+        color: rgb(255, 255, 255);
       }
     }
   }
 }
 
 // more options burger menu
-.hamburger-panel a.widget-link{
+.hamburger-panel a.widget-link {
   color: white;
 }
 
-.menu-container-admin-links{
-  ul{
-    li{
-      a{
+.menu-container-admin-links {
+  ul {
+    li {
+      a {
         color: white;
       }
     }
   }
 }
 
- 
 
- .category-links{
-  li{
-    .categories-link{
+
+.category-links {
+  li {
+    .categories-link {
       color: white;
     }
   }
-  li{
-    span{
+
+  li {
+    span {
       color: white;
     }
   }
@@ -538,63 +594,68 @@ ol.category-breadcrumb {
 
 
 //profile burguer menu
-.panel-body-contents{
+.panel-body-contents {
   #quick-access-profile {
-    ul{
-      .read{
-        a{
+    ul {
+      .read {
+        a {
           color: white;
-          svg{
+
+          svg {
             color: white;
           }
         }
       }
     }
+
     .read {
       opacity: 1;
-      color: rgb(255,255,255);
+      color: rgb(255, 255, 255);
 
     }
   }
 }
-  
-  #quick-access-messages{
-    ul{
-      .read{
-        a{
+
+#quick-access-messages {
+  ul {
+    .read {
+      a {
+        color: white;
+
+        .svg-icon {
           color: white;
-          .svg-icon{
-            color: white;
-          }
         }
       }
     }
   }
-
-  .menu-links-header{
-   .menu-links-row{
-     .d-icon{
-       color: white;
-     }
-   }
- }
 }
 
-div.menu-links-header .menu-links-row button.active .d-icon{
+.menu-links-header {
+  .menu-links-row {
+    .d-icon {
+      color: white;
+    }
+  }
+}
+
+
+div.menu-links-header .menu-links-row button.active .d-icon {
   color: var(--dgb-orange-color);
 }
 
 
-#quick-access-notifications{
-  ul{
-    li{
-      a{
+#quick-access-notifications {
+  ul {
+    li {
+      a {
         color: white;
-        svg{
+
+        svg {
           color: white;
         }
-        div{
-          span{
+
+        div {
+          span {
             color: white;
           }
         }
@@ -603,21 +664,23 @@ div.menu-links-header .menu-links-row button.active .d-icon{
   }
 }
 
-.user-menu .quick-access-panel .read{
+.user-menu .quick-access-panel .read {
   opacity: 1;
 }
 
-#quick-access-bookmarks{
-  ul{
-    div{
-      .empty-state{
-        .empty-state-title{
-          color: white;          
+#quick-access-bookmarks {
+  ul {
+    div {
+      .empty-state {
+        .empty-state-title {
+          color: white;
         }
-        .empty-state-body{
-          p{
+
+        .empty-state-body {
+          p {
             color: white;
-            svg{
+
+            svg {
               color: white;
             }
           }
@@ -641,6 +704,7 @@ div.menu-links-header .menu-links-row button.active .d-icon{
       border-radius: 1rem;
     }
   }
+
   ul li {
     font-size: 1rem;
   }
@@ -659,25 +723,31 @@ div.menu-links-header {
     ul {
       padding: 0.5rem;
     }
+
     li {
       background-color: transparent;
       font-size: 0.85rem;
+
       &:hover {
         background-color: transparent;
       }
     }
+
     .read {
       background-color: transparent;
       opacity: 0.7;
     }
+
     li a {
-      color: rgb(255,255,255);
+      color: rgb(255, 255, 255);
 
     }
+
     li button {
-      color: rgb(255,255,255);
+      color: rgb(255, 255, 255);
       font-family: var(--dgb-font-family);
       padding: 0.75rem 0.25rem;
+
       &:hover {
         background-color: var(--primary-low);
       }
@@ -685,26 +755,30 @@ div.menu-links-header {
   }
 
 
-.user-menu .quick-access-panel li.do-not-disturb {
-  background: transparent;
-}
+  .user-menu .quick-access-panel li.do-not-disturb {
+    background: transparent;
+  }
 
-div.menu-links-header .menu-links-row li a.active {
-  border-bottom-color: var(--main-background);
-}
+  div.menu-links-header .menu-links-row li a.active {
+    border-bottom-color: var(--main-background);
+  }
 
-.alert.alert-info{
-  span{
-    color: white;
-    span a{ 
-      color: rgba(252,185,0,1);
+  .alert.alert-info {
+    span {
+      color: white;
+
+      span a {
+        color: rgba(252, 185, 0, 1);
+      }
     }
-  }  
 
-}
-.alert-too-few-topics{
-  color: white !important;
-  a{
-    color: rgba(252,185,0,1);
+  }
+
+  .alert-too-few-topics {
+    color: white !important;
+
+    a {
+      color: rgba(252, 185, 0, 1);
+    }
   }
 }

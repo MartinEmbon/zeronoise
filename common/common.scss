@@ -611,9 +611,12 @@ ol.category-breadcrumb {
 
 
 .category-links {
+  .heading{
+    color: var(--dgb-blue-color);
+  }
   li {
     .categories-link {
-      color: white;
+      color: var(--dgb-blue-color);
     }
   }
 

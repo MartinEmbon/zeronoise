@@ -789,11 +789,15 @@ div.menu-links-header {
 }
 
 //admin
-.admin-customize .show-current-style .theme-controls .btn{
+.admin-customize .show-current-style .theme-controls{
   a{
-    color: white;
+    color: white !important;
     svg{
       color: white;
     }
   }
+}
+
+.alert{
+  color: var(--dgb-orange-color);
 }

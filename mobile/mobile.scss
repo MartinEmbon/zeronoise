@@ -251,3 +251,7 @@ border: thin solid #4a13a0 !important;
 #topic-footer-buttons .topic-notifications-button .reason .dropdown-select-box .name {
   color: white;
 }
+
+.select-kit .select-kit-row.is-selected.is-highlighted {
+  background-color: var(--dgb-orange-color);
+}

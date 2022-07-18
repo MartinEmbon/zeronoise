@@ -539,6 +539,18 @@ ol.category-breadcrumb {
 
 //profile burguer menu
 .panel-body-contents{
+  #quick-access-messages{
+    ul{
+      li{
+        a{
+          color: white;
+          svg{
+            color: white;
+          }
+        }
+      }
+    }
+  }
   .menu-links-header{
    .menu-links-row{
      .d-icon{
@@ -548,7 +560,9 @@ ol.category-breadcrumb {
  }
 }
 
-// div.menu-links-header .menu-links-row button.active .d-icon
+.menu-links-header .menu-links-row button.active .d-icon{
+  color: red;
+}
 
 
 #quick-access-notifications{

@@ -934,7 +934,7 @@ div.menu-links-header {
 #reply-control .mini-tag-chooser .select-kit-header {
   background-color: lightgray;
   &::placeholder{
-    color: white;
+    color: var(--dgb-blue-color);
   }
 }
 
@@ -943,4 +943,11 @@ div.menu-links-header {
   &::placeholder{
     color: white;
   }
+}
+
+.select-kit.multi-select .multi-select-header .formatted-selection {
+  color: var(--dgb-blue-color);
+}
+#reply-control .category-input .category-chooser .selected-name .name{
+  color: var(--dgb-blue-color);
 }

@@ -970,11 +970,11 @@ div.menu-links-header {
 
 .container-total{
   width: 100%;
-  margin: 1rem 0;
+  margin: 1rem auto;
 }
 .main-image{
   position: relative;
-  background-image: url("https://1660200928.rsc.cdn77.org/wp-content/uploads/2022/01/Leading-Low-Code-Integration-Platform-Launches-Partner-Program-to-Empower-Enterprises-to-Accelerate-Their-Digital-Journeys.jpg");
+  background-image: no-repeat center url("https://1660200928.rsc.cdn77.org/wp-content/uploads/2022/01/Leading-Low-Code-Integration-Platform-Launches-Partner-Program-to-Empower-Enterprises-to-Accelerate-Their-Digital-Journeys.jpg");
   background-size: cover;
   height: 500px;
   overflow: hidden;
@@ -991,7 +991,7 @@ div.menu-links-header {
   margin: 1rem 0; 
   h1{
     margin: 0;
-    font-size: 6em;
+    font-size: 70px;
     font-size: 700px;
     color: var(--dgb-blue-color);    
   }

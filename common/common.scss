@@ -539,6 +539,25 @@ ol.category-breadcrumb {
 
 //profile burguer menu
 .panel-body-contents{
+  #quick-access-profile {
+    ul{
+      .read{
+        a{
+          color: white;
+          svg{
+            color: white;
+          }
+        }
+      }
+    }
+    .read {
+      opacity: 1;
+      color: rgb(255,255,255);
+
+    }
+  }
+}
+  
   #quick-access-messages{
     ul{
       .read{
@@ -664,24 +683,7 @@ div.menu-links-header {
       }
     }
   }
-  #quick-access-profile {
-    ul{
-      li{
-        a{
-          color: white;
-          svg{
-            color: white;
-          }
-        }
-      }
-    }
-    .read {
-      opacity: 1;
-      color: rgb(255,255,255);
 
-    }
-  }
-}
 
 .user-menu .quick-access-panel li.do-not-disturb {
   background: transparent;

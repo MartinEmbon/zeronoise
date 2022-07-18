@@ -648,11 +648,11 @@ div.menu-links-header .menu-links-row button.active .d-icon {
   border: none;
   border-bottom: 1pxsolidvar(--secondary);
   position: relative;
-  &.hover{
-    color:green;
-  }
 }
 
+div.menu-links-header .menu-links-row button.active:hov{
+  color: red;
+}
 
 #quick-access-notifications {
   ul {

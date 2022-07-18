@@ -854,3 +854,10 @@ div.menu-links-header {
 .topic-list tbody tr{
   border-bottom: 1px solid var(--dgb-blue-color);
 }
+
+// editor container
+.d-editor-button-bar{
+  button{
+    background-color: red;
+  }
+}

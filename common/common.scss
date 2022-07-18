@@ -930,7 +930,7 @@ div.menu-links-header {
 #reply-control #reply-title {
   background-color: lightgray !important;
   &::placeholder{
-    color: white;
+    color: var(--dgb-blue-color);
   }
 }
 

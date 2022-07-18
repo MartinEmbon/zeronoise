@@ -646,11 +646,11 @@ ol.category-breadcrumb {
 div.menu-links-header .menu-links-row button.active .d-icon {
   color: var(--dgb-orange-color);
   border: none;
-  border-bottom: 1pxsolidvar(--secondary);
+  border-bottom: 1px solid var(--secondary);
   position: relative;
 }
 
-div.menu-links-header .menu-links-row button.active:hov{
+div.menu-links-header .menu-links-row button.active:hover{
   color: red;
 }
 

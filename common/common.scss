@@ -3,6 +3,9 @@
 @import "topic-list";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
 
+*{
+  font-family: var(--dgb-font-family);
+}
 // General
 .btn {
   //border-radius: 2rem;
@@ -846,4 +849,8 @@ div.menu-links-header {
   background-color: transparent;
   border-bottom-color: var(--dgb-blue-color) !important;
   font-weight: bold;
+}
+
+.topic-list tbody tr{
+  border-bottom: 1px solid var(--dgb-blue-color);
 }

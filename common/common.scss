@@ -521,16 +521,15 @@ ol.category-breadcrumb {
   }
 }
 
-.panel-body-contents{
-  ul{
-    li{
-      a{
+ .panel-body-contents{
+   .menu-links-header{
+    .menu-links-row{
+      .d-icon{
         color: white;
       }
     }
   }
-}
-
+ }
 .category-links{
   li{
     .categories-link{

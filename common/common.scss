@@ -167,11 +167,6 @@ p {
 
 // List and Post
 .container {
-  &.list-container,
-  .user-content {
-    background-color: var(--main-background);
-  }
-
   &.posts {
     margin-bottom: 2rem;
   }
@@ -566,7 +561,6 @@ ol.category-breadcrumb {
 }
 
 .menu-panel {
-  //background-color: var(--main-background);
   background-color: white;
   //border-radius: 0.5rem;
 

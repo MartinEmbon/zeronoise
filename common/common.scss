@@ -727,6 +727,7 @@ div.menu-links-header .menu-links-row button.active:hover{
       .empty-state {
         .empty-state-title {
           color: var(--dgb-blue-color);
+          font-weight: 600;
         }
 
         .empty-state-body {
@@ -932,6 +933,9 @@ div.menu-links-header {
 }
 
 .select-kit-header-wrapper svg>use[href="#caret-right"]{
+   color: var(--dgb-blue-color) !important;
+}
+.select-kit-header-wrapper svg>use[href="#caret-down"]{
    color: var(--dgb-blue-color) !important;
 }
 

@@ -1,0 +1,14 @@
+<script type="text/discourse-plugin" version="0.8">
+
+        $( document ).ready(function() {
+
+        console.log(Discourse, "Page Object")
+        alert("JS Test")
+
+            const user = api.getCurrentUser(),
+              username = user.username;
+
+            $('h1.hello-world').html('Hello there '+username+"!")
+          });
+
+    </script>

@@ -1280,6 +1280,6 @@ a:active {
 .select-kit .select-kit-header .selected-name,
 .select-kit .select-kit-header .selected-name:hover,
 .select-kit .select-kit-header .selected-name:focus{
-  outline: none;
-  border: none;
+  outline: none !important;
+  border: none !important;
 }

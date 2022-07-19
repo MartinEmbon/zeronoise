@@ -1225,6 +1225,14 @@ body.category{
 .category-list .category{
   width: 33.3%;
 }
+
+.category-list tbody .category{
+  padding: 55px 50px 55px 42px;
+}
+.category-list tbody .latest{
+  padding: 55px 120px 55px 18px;
+}
+
 .category-list .latest {
   width: 66.6%;
 }

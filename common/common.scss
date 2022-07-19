@@ -937,16 +937,16 @@ div.menu-links-header {
 }
 }
 
-.select-kit-header-wrapper svg>use[href="#cog"]{
-  color: white;
+.select-kit-header-wrapper svg>use[href="#caret-right"]{
+   color: var(--dgb-blue-color);
 }
 
-.select-kit-header-wrapper svg > use[href="#wrench"]{
-  color: white;
-}
-.select-kit-header-wrapper svg > use[href="#caret-down"]{
-  color: white;
-}
+//  .select-kit-header-wrapper svg > use[href="#wrench"]{
+// color: white;
+// }
+// .select-kit-header-wrapper svg > use[href="#caret-down"]{
+//   color: white;
+// }
 
 .select-kit-header-wrapper svg>use[href]{
   color: white;

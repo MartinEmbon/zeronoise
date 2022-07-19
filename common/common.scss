@@ -1215,6 +1215,11 @@ body.category{
   background: #ffffff;
 }
 
+.menu-links.columned li{
+  width: 100%
+  float: inherit;
+}
+
 // Remove Hover Outlines
 li:hover,
 li:focus,

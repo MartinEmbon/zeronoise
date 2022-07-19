@@ -635,10 +635,10 @@ ol.category-breadcrumb {
     ul {
       .read {
         a {
-          color: white;
+          color: var(--dgb-blue-color);
 
           svg {
-            color: white;
+            color: var(--dgb-blue-color);
           }
         }
       }
@@ -646,7 +646,8 @@ ol.category-breadcrumb {
 
     .read {
       opacity: 1;
-      color: rgb(255, 255, 255);
+      //color: rgb(255, 255, 255);
+      color: var(--dgb-blue-color);
 
     }
   }
@@ -656,10 +657,10 @@ ol.category-breadcrumb {
   ul {
     .read {
       a {
-        color: white;
+        color: var(--dgb-blue-color);
 
         .svg-icon {
-          color: white;
+          color: var(--dgb-blue-color);
         }
       }
     }
@@ -721,15 +722,15 @@ div.menu-links-header .menu-links-row button.active:hover{
     div {
       .empty-state {
         .empty-state-title {
-          color: white;
+          color: var(--dgb-blue-color);
         }
 
         .empty-state-body {
           p {
-            color: white;
+            color: var(--dgb-blue-color);
 
             svg {
-              color: white;
+              color: var(--dgb-blue-color);
             }
           }
         }

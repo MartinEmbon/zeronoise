@@ -652,7 +652,15 @@ ol.category-breadcrumb {
     }
   }
 }
-
+.quick-access-profile{
+  ul{
+    .do-not-disturb{
+      button{
+        color: var(--dgb-blue-color) !important;
+      }
+    }
+  }
+}
 #quick-access-messages {
   ul {
     .read {

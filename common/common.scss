@@ -937,8 +937,10 @@ div.menu-links-header {
 }
 }
 
+
+
 .select-kit-header-wrapper svg>use[href="#caret-right"]{
-   color: var(--dgb-blue-color);
+   color: var(--dgb-blue-color) !important;
 }
 
 //  .select-kit-header-wrapper svg > use[href="#wrench"]{

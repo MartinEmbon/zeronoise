@@ -1180,3 +1180,12 @@ div.menu-links-header {
   border: none;
   outline: none;
 }
+
+
+/* Remove Box Shadows */
+.container.list-container, 
+.container .user-content, 
+.container.posts>.row{
+  box-shadow: 0px;
+}
+

@@ -741,9 +741,10 @@ div.menu-links-header .menu-links-row button.active:hover{
         .empty-state-body {
           p {
             color: var(--dgb-blue-color);
+            font-size: 1.2em;
 
             svg {
-              color: var(--dgb-blue-color);
+              color: var(--dgb-orange-color);
             }
           }
         }
@@ -870,6 +871,7 @@ div.menu-links-header {
 }
 .alert{
   color: white !important;
+  padding: 0.5em 2.5em 0.5em 1em !important;
 }
 
 .d-header #site-logo{
@@ -1043,6 +1045,7 @@ div.menu-links-header {
       padding: 6px 14px;
       display: inline-block;
       background-color: var(--dgb-blue-color);
+      border-radius: 3px;
     }
   }
  

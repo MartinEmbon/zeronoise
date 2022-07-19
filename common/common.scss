@@ -5,7 +5,7 @@
 
 *{
   font-family: var(--dgb-font-family);
-  font-weight: 400;
+  //font-weight: 400;
 }
 
 .discourse-root{
@@ -679,11 +679,15 @@ ol.category-breadcrumb {
     }
   }
 }
+.menu-links-row .d-icon
 
 .menu-links-header {
   .menu-links-row {
     .d-icon {
       color: var(--dgb-blue-color);
+      &:hover{
+        color: green;
+      }
       &.menu-links-row:hover{
         color: var(--dgb-orange-color);
       }

@@ -129,6 +129,11 @@ aside.onebox {
     display: flex;
   }
 
+  .pinned-button .topic-notifications-button .reason .text {
+    font-size: 1.2em;
+    color: red;
+  }
+
   .btn:last-child {
     margin-right: 0;
   }

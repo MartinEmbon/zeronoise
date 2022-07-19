@@ -808,9 +808,7 @@ div.menu-links-header {
     background: transparent;
     
   }
-  .user-menu .quick-access-panel li.do-not-disturb .do-not-disturb-inner-container{
-    color: var(--dgb-blue-color);
-  }
+  
   
   .user-menu .quick-access-panel.quick-access-profile ul button {
     color: var(--dgb-blue-color) !important;
@@ -821,11 +819,10 @@ div.menu-links-header {
     border-bottom-color: var(--main-background);
   }
 
-  .user-menu .quick-access-panel li.do-not-disturb .do-not-disturb-inner-container .do-not-disturb-label {
+  .user-menu .quick-access-panel li.do-not-disturb .do-not-disturb-inner-container{
     color: var(--dgb-blue-color) !important;
   }
   .alert.alert-info {
-    
     span {
       color: white !important;
 

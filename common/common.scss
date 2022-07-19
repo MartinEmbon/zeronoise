@@ -1211,8 +1211,26 @@ body.category{
 
 .category-list tbody .category, 
 .category-list tbody .topics,
+.category-list tbody .latest,
 .latest-topic-list-item{
   background: #ffffff;
+}
+
+// Modify Catgories
+
+.category-list tbody .topics{
+  display: none;
+}
+
+.category-list .category{
+  width: 33.3%
+}
+.category-list .latest {
+  width: 66.6%
+}
+.topic-list-item, tr{
+  margin-bottom: 1.5em,
+  display: flex
 }
 
 .menu-links.columned li{

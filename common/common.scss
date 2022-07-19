@@ -1273,3 +1273,10 @@ a:active {
     outline: none;
     box-shadow: none !important;
 }
+
+.select-kit .select-kit-header .select-kit-header-wrapper{
+  outline: none;
+  &:hover, &:focus{
+    outline: none;
+  }
+}

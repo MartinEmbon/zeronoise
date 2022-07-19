@@ -813,7 +813,7 @@ div.menu-links-header {
   }
   
   .user-menu .quick-access-panel.quick-access-profile ul button {
-    color: var(--dgb-blue-color);
+    color: var(--dgb-blue-color) !important;
   }
 
 
@@ -822,7 +822,7 @@ div.menu-links-header {
   }
 
   .user-menu .quick-access-panel li.do-not-disturb .do-not-disturb-inner-container .do-not-disturb-label {
-    color: var(--dgb-blue-color);
+    color: var(--dgb-blue-color) !important;
   }
   .alert.alert-info {
     

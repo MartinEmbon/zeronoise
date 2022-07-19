@@ -1227,7 +1227,7 @@ body.category{
 }
 
 .category-list tbody tr .category{
-  border-left: 3px;
+  border-left-width: 3px;
 }
 .category-list tbody .category{
   padding: 55px 50px 55px 42px;
@@ -1239,6 +1239,10 @@ body.category{
 .category-list .latest {
   width: 66.6%;
 }
+
+
+
+
 .topic-list-item, tr{
   margin-bottom: 1.5em;
   display: flex;

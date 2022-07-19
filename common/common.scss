@@ -732,7 +732,7 @@ div.menu-links-header .menu-links-row button.active:hover{
         .empty-state-body {
           p {
             color: var(--dgb-blue-color);
-            font-size: 1.2em;
+            font-size: 1em;
 
             svg {
               color: var(--dgb-orange-color);
@@ -924,7 +924,12 @@ div.menu-links-header {
 }
 }
 
-
+.select-kit-header-wrapper svg>use[href="#plus"]{
+  color: var(--dgb-blue-color) !important;
+}
+.select-kit-header-wrapper svg>use[href="#lock"]{
+  color: var(--dgb-blue-color) !important;
+}
 
 .select-kit-header-wrapper svg>use[href="#caret-right"]{
    color: var(--dgb-blue-color) !important;

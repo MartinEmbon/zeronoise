@@ -1275,11 +1275,20 @@ a:active {
 }
 
 .select-kit .select-kit-header .select-kit-header-wrapper,
+.select-kit .select-kit-header .select-kit-header-wrapper.active,
 .select-kit .select-kit-header .select-kit-header-wrapper:hover,
 .select-kit .select-kit-header .select-kit-header-wrapper:focus,
 .select-kit .select-kit-header .selected-name,
 .select-kit .select-kit-header .selected-name:hover,
 .select-kit .select-kit-header .selected-name:focus{
+  outline: none !important;
+  border: none !important;
+}
+
+.list-controls .select-kit .combo-box-header,
+.list-controls .select-kit .combo-box-header.active,
+.list-controls .select-kit .combo-box-header:focus,
+.list-controls .select-kit .combo-box-header:hover{
   outline: none !important;
   border: none !important;
 }

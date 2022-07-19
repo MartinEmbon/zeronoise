@@ -815,11 +815,15 @@ div.menu-links-header {
   .user-menu .quick-access-panel.quick-access-profile ul button {
     color: var(--dgb-blue-color);
   }
-  
+
+
   div.menu-links-header .menu-links-row li a.active {
     border-bottom-color: var(--main-background);
   }
 
+  .user-menu .quick-access-panel li.do-not-disturb .do-not-disturb-inner-container .do-not-disturb-label {
+    color: var(--dgb-blue-color);
+  }
   .alert.alert-info {
     
     span {

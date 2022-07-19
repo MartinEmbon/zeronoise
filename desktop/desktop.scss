@@ -4,9 +4,11 @@
   &.list-container,
   .user-content {
     border-radius: 0 0.5rem 0.5rem 0.5rem;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 12%), 0px 0px 2px rgb(0 0 0 / 14%);
   }
   &.list-container {
     padding: 24px 48px;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 12%), 0px 0px 2px rgb(0 0 0 / 14%);
   }
   &.posts {
     & > .row {
@@ -88,4 +90,24 @@
 
 .select-kit .select-kit-row.is-selected.is-highlighted {
   background-color: var(--dgb-orange-color);
+}
+
+
+// Topic Overrides
+.topic-list tbody tr {
+    background: #fff;
+}
+.topic-list .topic-list-data{
+  padding: 12px 5px;
+}
+.topic-list tbody tr .main-link{
+  padding: 48px
+}
+.topic-list td.activity, 
+.topic-list td.views, 
+.topic-list td.posts-map, 
+.topic-list th.activity, 
+.topic-list th.views, 
+.topic-list th.posts-map {
+    padding: 0 24px;
 }

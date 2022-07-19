@@ -1163,6 +1163,7 @@ div.menu-links-header {
 }
 
 
-.select-kit.single-select.is-expanded .select-kit-header:not(.btn), .select-kit.single-select .select-kit-header:not(.btn):focus, .select-kit.single-select .select-kit-header:not(.btn):active{
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn){
   border: none;
+  outline: none;
 }

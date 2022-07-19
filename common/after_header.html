@@ -7,8 +7,16 @@
         </div>
     </div>
 
-    <script type="text/discourse-plugin" version="0.8">
+    <script type="text/javascript" version="0.8">
+
+        $( document ).ready(function() {
+            const user = api.getCurrentUser(),
+              username = user.username;
+
+            $('h1.hello-world').html('Hello there '+username+"!")
+          });
+  
         console.log(Discourse)
     </script>
-    
+
 </div>

@@ -991,6 +991,23 @@ div.menu-links-header {
   height: 100%;
 }
 
+.admin-controls{
+  nav{
+    ul{
+      li{
+        a.active{
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+
+.nav-stacked a.active{
+  color: inherit;
+}
+
 // main banner
 
 .container-total{

@@ -806,9 +806,16 @@ div.menu-links-header {
 
   .user-menu .quick-access-panel li.do-not-disturb {
     background: transparent;
+    
+  }
+  .user-menu .quick-access-panel li.do-not-disturb .do-not-disturb-inner-container{
     color: var(--dgb-blue-color);
   }
-
+  
+  .user-menu .quick-access-panel.quick-access-profile ul button {
+    color: var(--dgb-blue-color);
+  }
+  
   div.menu-links-header .menu-links-row li a.active {
     border-bottom-color: var(--main-background);
   }

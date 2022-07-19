@@ -2,13 +2,11 @@
 
         $( document ).ready(function() {
 
-        console.log(Discourse, "Page Object")
-        alert("JS Test")
+        console.log(Discourse, "Page Object");
+        console.log( Discourse.User, "User");
+        console.log( Discourse.Site, "Site");
+        console.log( Discourse.SiteSettings, "SiteSettings");
 
-            const user = api.getCurrentUser(),
-              username = user.username;
-
-            $('h1.hello-world').html('Hello there '+username+"!")
           });
 
     </script>

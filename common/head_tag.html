@@ -1,12 +1,11 @@
 <script type="text/discourse-plugin" version="0.8">
 
-        $( document ).ready(function() {
+    const User = require('discourse/model/user').default;
+    cosnt Site = require( 'discourse/models/site' ).default;
 
-        console.log(Discourse, "Page Object");
-        console.log( Discourse.User, "User");
-        console.log( Discourse.Site, "Site");
-        console.log( Discourse.SiteSettings, "SiteSettings");
+    console.log(Discourse, "Page Object");
+    console.log( User, "User");
+    console.log( Site, "Site");
+    console.log( siteSettings, "SiteSettings");
 
-          });
-
-    </script>
+</script>

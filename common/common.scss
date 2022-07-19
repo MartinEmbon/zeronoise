@@ -1209,6 +1209,12 @@ body.category{
   background-image: none !important;
 }
 
+.category-list tbody .category, 
+.category-list tbody .topics,
+.latest-topic-list-item{
+  background: #ffffff;
+}
+
 // Remove Hover Outlines
 li:hover,
 li:focus,

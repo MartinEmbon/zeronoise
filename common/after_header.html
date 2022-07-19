@@ -1,4 +1,4 @@
-<!-- <div class="container-total">
+<div class="container-total">
     <div class="main-image">
         <div class="container-banner">
             <h1><span>Digibee Discourse Forum</span></h1>
@@ -6,4 +6,46 @@
             <a href="#" class="button-banner">Post here!</a>
         </div>
     </div>
-</div> -->
+
+
+    <!--
+
+    <div class="banner-container">
+    
+        <div class="banner">
+            <div class="logo">
+                <img src="../dgb-logo.png" alt="">
+            </div>
+            <div class="content">
+                <span>Digibee Discourse Forum</span>
+                <h3>Expanding Our Global Community</h3>
+                <p>Post here!</p>
+                <a href="#" class="btn">Check our latest post</a>
+            </div>
+            <div class="dgb-pic">
+                <img src="../dgb-componentes.png" alt="">
+            </div>
+        </div>
+    
+    </div>
+    -->
+
+    
+
+    <script type="text/javascript">
+
+        $( document ).ready(function() {
+
+        console.log(Discourse, "Page Object")
+        alert("JS Test")
+
+            const user = api.getCurrentUser(),
+              username = user.username;
+
+            $('h1.hello-world').html('Hello there '+username+"!")
+          });
+
+    </script>
+
+</div>
+</div>

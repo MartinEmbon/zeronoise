@@ -5,7 +5,7 @@
 
 *{
   font-family: var(--dgb-font-family);
-  font-weight: 400;
+  //font-weight: 400;
 }
 
 .discourse-root{
@@ -679,11 +679,15 @@ ol.category-breadcrumb {
     }
   }
 }
+.menu-links-row .d-icon
 
 .menu-links-header {
   .menu-links-row {
     .d-icon {
       color: var(--dgb-blue-color);
+      &:hover{
+        color: green;
+      }
       &.menu-links-row:hover{
         color: var(--dgb-orange-color);
       }
@@ -741,9 +745,10 @@ div.menu-links-header .menu-links-row button.active:hover{
         .empty-state-body {
           p {
             color: var(--dgb-blue-color);
+            font-size: 1.2em;
 
             svg {
-              color: var(--dgb-blue-color);
+              color: var(--dgb-orange-color);
             }
           }
         }
@@ -870,6 +875,7 @@ div.menu-links-header {
 }
 .alert{
   color: white !important;
+  padding: 0.5em 2.5em 0.5em 1em !important;
 }
 
 .d-header #site-logo{
@@ -904,7 +910,7 @@ div.menu-links-header {
 }
 
 .nav-pills>li>a.active{
-  color: white;
+  color: var(--dgb-blue-color);
   background-color: transparent;
   border-bottom-color: var(--dgb-blue-color) !important;
   font-weight: bold;
@@ -931,7 +937,20 @@ div.menu-links-header {
 }
 }
 
-.select-kit-header-wrapper svg>use[href="#cog"]{
+
+
+.select-kit-header-wrapper svg>use[href="#caret-right"]{
+   color: var(--dgb-blue-color) !important;
+}
+
+//  .select-kit-header-wrapper svg > use[href="#wrench"]{
+// color: white;
+// }
+// .select-kit-header-wrapper svg > use[href="#caret-down"]{
+//   color: white;
+// }
+
+.select-kit-header-wrapper svg>use[href]{
   color: white;
 }
 .admin-customize .themes-list-header .tab {
@@ -991,6 +1010,23 @@ div.menu-links-header {
   height: 100%;
 }
 
+.admin-controls{
+  nav{
+    ul{
+      li{
+        a.active{
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+
+.nav-stacked a.active{
+  color: inherit;
+}
+
 // main banner
 
 .container-total{
@@ -1026,6 +1062,7 @@ div.menu-links-header {
       padding: 6px 14px;
       display: inline-block;
       background-color: var(--dgb-blue-color);
+      border-radius: 3px;
     }
   }
  
@@ -1049,15 +1086,97 @@ div.menu-links-header {
 .button-banner:hover{
   opacity: .6;
 }
+
+//second banner
+
 /*
-<div class="main-image">
-    <div class="container-banner">
-        <h1><span>Banner</span></h1>
-        <span class="cen">Web Designer</span>
-        <a href="#" class="button-banner">Click here</a>
-    </div>
-</div>
+.banner-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container .banner{
+  background:linear-gradient(-55deg, #4a13a0 29%, #04a060 29.1%, #e55505 68%);
+  border-radius: 5px;
+  margin:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 5px 10px #0005;
+  overflow: hidden;
+}
+
+.banner-container .banner .logo{
+  flex:1 1 250px;
+  padding:15px;
+  text-align: center;
+}
+
+.banner-container .banner .logo img{
+  width:80%;
+}
+
+.banner-container .banner .content{
+  flex:1 1 250px;
+  text-align: center;
+  padding:10px;
+  text-transform: uppercase;
+}
+
+.banner-container .banner .content span{
+  color:#eee;
+  font-size: 25px;
+}
+
+.banner-container .banner .content h3{
+  color:#fff;
+  font-size: 40px;
+}
+
+.banner-container .banner .content p{
+  color:#eee;
+  font-size: 20px;
+  padding:10px 0;
+}
+
+.banner-container .banner .content .btn{
+  display: block;
+  height:40px;
+  width:150px;
+  line-height: 40px;
+  background: #fff;
+  color:#d63031;
+  margin:5px auto;
+  text-decoration: none;
+}
+
+.banner-container .banner .dgb-pic{
+  position: relative;
+  bottom: -33px;
+  padding:10px;
+  flex:1 1 250px;
+}
+
+.banner-container .banner .dgb-pic img{
+  width:100%;
+}
+
+@media (max-width:768px){
+  .banner-container .banner .dgb-pic{
+      display: none;
+  }
+}
+
 */
+
 #main-outlet{
   padding-top: 0.5em;
+}
+
+
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn){
+  border: none;
+  outline: none;
 }

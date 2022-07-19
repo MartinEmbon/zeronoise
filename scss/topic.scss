@@ -129,6 +129,11 @@ aside.onebox {
     display: flex;
   }
 
+  .pinned-button .topic-notifications-button .reason .text {
+    font-size: 1.2em;
+    color: red;
+  }
+
   .btn:last-child {
     margin-right: 0;
   }
@@ -202,6 +207,9 @@ aside.onebox {
   color: white;
 }
 
+// #topic-footer-buttons .pinned-button .reason .text, #topic-footer-buttons .topic-notifications-button .reason .text{
+//   font-size: 1.2em;
+// }
 
 .select-kit .select-kit-row.is-selected.is-highlighted {
   background-color: var(--dgb-orange-color);

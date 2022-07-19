@@ -1208,3 +1208,12 @@ div.menu-links-header {
 body.category{
   background-image: none !important;
 }
+
+// Remove Hover Outlines
+li:hover,
+li:focus,
+a:hover,
+a:active {
+    outline: none;
+    box-shadow: none !important;
+}

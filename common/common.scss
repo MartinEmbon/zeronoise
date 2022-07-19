@@ -1218,7 +1218,8 @@ body.category{
 
 // Modify Catgories
 
-.category-list tbody .topics, .category-list th .topics{
+.category-list tbody .topics, 
+.category-list thead .topics{
   display: none;
 }
 

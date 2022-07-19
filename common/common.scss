@@ -1161,3 +1161,8 @@ div.menu-links-header {
 #main-outlet{
   padding-top: 0.5em;
 }
+
+
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn), .select-kit.single-select .select-kit-header:not(.btn):focus, .select-kit.single-select .select-kit-header:not(.btn):active{
+  border: none;
+}

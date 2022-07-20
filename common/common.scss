@@ -963,6 +963,11 @@ div.menu-links-header {
 
 
 // Tweak Reply Control
+#replay-control .d-editor-textarea-wrapper{
+  outline: 0 !Important,
+  border: 0px;
+}
+
 #reply-control .d-editor-textarea-wrapper textarea {
   background-color: #fffff;
   border: 0px;
@@ -973,7 +978,7 @@ div.menu-links-header {
   }
 }
 
-#reply-control .category-input .select-kit-header {
+#reply-control .select-kit-header {
   background-color: #fffff;
   box-shadow: 0px 2px 2px rgba(0,0,0,0.12),0px 0px 2px rgba(0,0,0,0.14) !important;
   padding: 20px 32px;
@@ -989,6 +994,7 @@ div.menu-links-header {
 
 #reply-control #reply-title {
   background-color: #fffff;
+  border: 0px;
   box-shadow: 0px 2px 2px rgba(0,0,0,0.12),0px 0px 2px rgba(0,0,0,0.14) !important;
   padding: 20px 32px;
   &::placeholder{

@@ -9,7 +9,9 @@
 }
 
 // General
-.btn {
+.btn,
+.reply-to .select-kit-header,
+ {
   //border-radius: 2rem;
   //border-radius: 1rem;
   //min-width: 220px;
@@ -308,18 +310,6 @@ ol.category-breadcrumb {
 
 .modal-body {
   font-size: 1rem;
-}
-
-.modal-footer,
-.save-or-cancel,
-.user-main .details {
-  .btn {
-    @extend %btn--big;
-  }
-}
-
-.modal-inner-container {
-  border-radius: 0.5rem;
 }
 
 .stats-title {
@@ -1294,4 +1284,8 @@ a:active {
 .list-controls .select-kit .combo-box-header:hover{
   outline: none !important;
   border: none !important;
+}
+
+#reply-control .reply-area{
+  background: #ffffff;
 }

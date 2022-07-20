@@ -1321,7 +1321,8 @@ a:active {
 
 
 //login button
-.d-header .login-button:hover {
+.d-header .login-button:hover,
+.d-header .login-button svg>use[href="#user"]:hover {
   background-color: white;
   color: var(--dgb-blue-color);
 }

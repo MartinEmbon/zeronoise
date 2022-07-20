@@ -1322,7 +1322,9 @@ a:active {
 
 //login button
 .d-header .login-button:hover,
-.d-header .login-button svg>use[href="#user"]:hover {
+.d-header .login-button:hover svg>use[href="#user"] {
   background-color: white;
   color: var(--dgb-blue-color);
+  border-radius: 3px;
+  transition: .6s;
 }

@@ -1,9 +1,3 @@
-.container {
-  &.posts {
-    background-color: var(--main-background);
-  }
-}
-
 .d-header {
   .wrap {
     padding: 0 1.5rem 0 1.6rem;
@@ -139,6 +133,22 @@
   margin-left: 40px;
 }
 
+
+
+
+// Topic Post Overrides 
+.topic-post{
+  margin-bottom: 1em;
+  background: #fff;
+  box-sizing: border-box;
+  border: none;
+  padding: 1em;
+  box-shadow: 0px 2px 2pxrgba(0,0,0,0.12),0px 0px 2pxrgba(0,0,0,0.14);
+}
+.topic-post .topic-avatar{
+  padding-right: 10px;
+}
+
 .topic-post {
   article {
     border-top: none;
@@ -189,7 +199,21 @@
   
 
 }
-//user main profila
+
+
+
+
+// User Card Tweaks
+.user-card {
+  background: none !important; // This is a conscious override to the custom background behavior.
+  overflow: hidden;
+
+  .card-row:not(.first-row) {
+    margin: 2rem 0 1rem;
+    font-size: 12px;
+    padding-left: 0px;
+  }
+}
 
 .user-main .about .controls .btn{
   color: white;
@@ -293,9 +317,6 @@ border: thin solid #4a13a0 !important;
   // Topic Overrides
   .topic-list .topic-list-data{
     padding: 12px 5px !important;
-  }
-  .topic-list tbody tr .main-link{
-    padding: 48px !important;
   }
   .topic-list td.activity, 
   .topic-list td.views, 

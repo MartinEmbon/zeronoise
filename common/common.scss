@@ -9,7 +9,9 @@
 }
 
 // General
-.btn {
+.btn,
+.reply-to .select-kit .select-kit-header .select-kit-header-wrapper,
+ {
   //border-radius: 2rem;
   //border-radius: 1rem;
   //min-width: 220px;
@@ -85,6 +87,11 @@ p {
 }
 
 
+
+// Modify Font Weights
+.select-kit.single-select.dropdown-select-box .select-kit-row .texts .name {
+  font-weight: normal;
+}
 
 .list-controls {
   .select-kit {
@@ -257,9 +264,10 @@ ol.category-breadcrumb {
   }
 }
 
+// User Card Tweaks
+
 .user-card {
   background: none !important; // This is a conscious override to the custom background behavior.
-  border-radius: 0.5rem;
   overflow: hidden;
 
   .card-content {
@@ -307,19 +315,6 @@ ol.category-breadcrumb {
 
 .modal-body {
   font-size: 1rem;
-}
-
-.modal-footer,
-.save-or-cancel,
-.usercard-controls,
-.user-main .details {
-  .btn {
-    @extend %btn--big;
-  }
-}
-
-.modal-inner-container {
-  border-radius: 0.5rem;
 }
 
 .stats-title {
@@ -942,13 +937,6 @@ div.menu-links-header {
    color: var(--dgb-blue-color) !important;
 }
 
-//  .select-kit-header-wrapper svg > use[href="#wrench"]{
-// color: white;
-// }
-// .select-kit-header-wrapper svg > use[href="#caret-down"]{
-//   color: white;
-// }
-
 .select-kit-header-wrapper svg>use[href]{
   color: white;
 }
@@ -971,26 +959,57 @@ div.menu-links-header {
 }
 
 
+
+
+
+// Tweak Reply Control
+
+#reply-conttrol .d-editor-textarea-column{
+  flex: auto;  
+}
+
+#replay-control .d-editor-textarea-wrapper{
+  outline: 0 !important;
+  border: 0px;
+}
+
+#reply-control .d-editor-textarea-wrapper textarea {
+  background-color: #fffff;
+  border: 0px;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.12),0px 0px 2px rgba(0,0,0,0.14) !important;
+  padding: 20px 32px;
+  &::placeholder{
+    color: var(--dgb-blue-color);
+  }
+}
+
+#reply-control .category-input .select-kit-header,
+#reply-control .mini-tag-chooser .select-kit-header  {
+  background-color: #fffff;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.12),0px 0px 2px rgba(0,0,0,0.14) !important;
+  padding: 20px 32px;
+  border: 0px;
+  &::placeholder{
+    color: var(--dgb-blue-color);
+  }
+}
+
+#reply-control .select-kit .select-kit-header .caret-icon{
+  color: var(--dgb-blue-color)
+}
+
 #reply-control #reply-title {
-  background-color: lightgray !important;
+  background-color: #fffff;
+  border: 0px;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.12),0px 0px 2px rgba(0,0,0,0.14) !important;
+  padding: 20px 32px;
   &::placeholder{
     color: var(--dgb-blue-color);
   }
 }
 
-#reply-control .mini-tag-chooser .select-kit-header {
-  background-color: lightgray;
-  &::placeholder{
-    color: var(--dgb-blue-color);
-  }
-}
+// End Tweak Reply Control
 
-#reply-control .category-input .category-chooser .select-kit-header {
-  background-color: lightgray;
-  &::placeholder{
-    color: var(--dgb-blue-color);
-  }
-}
 
 .select-kit.multi-select .multi-select-header .formatted-selection {
   color: var(--dgb-blue-color);
@@ -1295,3 +1314,10 @@ a:active {
   outline: none !important;
   border: none !important;
 }
+
+#reply-control .reply-area{
+  background: #ffffff;
+}
+
+
+

@@ -1,16 +1,16 @@
 {
-  "name": "zeronoise",
+  "name": "Digibee V1",
   "component": false,
   "license_url": null,
-  "about_url": "https://github.com/ruidovisual/zeronoise",
-  "authors": "Miguel Arroyo - http://ruidovisual.com",
+  "about_url": "https://github.com/MartinEmbon/zeronoise.git",
+  "authors": "Digibee - https://digibee.com",
   "theme_version": 1.0,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
   },
   "color_schemes": {
-    "Zeronoise": {
+    "Digibee": {
       "primary": "2d2a3d", // Applies as solid color to Post Titles and to other text as a tint 
       "secondary": "f4f4f9", // Applies to the background and .nav-pills>li a.active
       "tertiary": "#4a13a0", // Call to actions and links

@@ -1,4 +1,7 @@
 .topic-post {
+  .topic-avatar {
+    border: none;
+  }
   .first {
     line-height: 45px;
     font-size: 1.2rem;
@@ -9,10 +12,6 @@
     }
   }
 
-  .topic-body,
-  .topic-avatar {
-    border: none;
-  }
 }
 
 .topic-post:first-child {

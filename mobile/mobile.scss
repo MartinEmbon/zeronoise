@@ -144,10 +144,12 @@
   border: none;
   padding: 1em;
   box-shadow: 0px 2px 2pxrgba(0,0,0,0.12),0px 0px 2pxrgba(0,0,0,0.14);
+  .topic-post .topic-avatar{
+    padding-right: 10px;
+    margin-right: 10px;
+  }
 }
-.topic-post .topic-avatar{
-  padding-right: 10px;
-}
+
 
 .topic-post {
   article {

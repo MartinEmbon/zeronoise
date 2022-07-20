@@ -257,9 +257,10 @@ ol.category-breadcrumb {
   }
 }
 
+// User Card Tweaks
+
 .user-card {
   background: none !important; // This is a conscious override to the custom background behavior.
-  border-radius: 0.5rem;
   overflow: hidden;
 
   .card-content {
@@ -311,7 +312,6 @@ ol.category-breadcrumb {
 
 .modal-footer,
 .save-or-cancel,
-.usercard-controls,
 .user-main .details {
   .btn {
     @extend %btn--big;

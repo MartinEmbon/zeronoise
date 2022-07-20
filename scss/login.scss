@@ -133,7 +133,7 @@
     }
   }
   .login-left-side {
-    background: var(--secondary);
+    background: red;
     width: calc(100% - 4em);
     display: flex;
     flex-direction: column;
@@ -253,7 +253,7 @@
   }
   .modal-footer {
     grid-area: footer;
-    background-color: var(--secondary);
+    background-color: red;
     position: relative;
     &:before {
       content: "";

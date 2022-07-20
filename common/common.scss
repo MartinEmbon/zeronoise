@@ -1320,4 +1320,8 @@ a:active {
 }
 
 
-
+//login button
+.d-header .login-button:hover {
+  background-color: white;
+  color: var(--dgb-blue-color);
+}

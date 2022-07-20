@@ -10,7 +10,7 @@
 
 // General
 .btn,
-.select-kit .select-kit-header,
+.select-kit .select-kit-header .select-kit-header-wrapper,
  {
   //border-radius: 2rem;
   //border-radius: 1rem;
@@ -931,13 +931,6 @@ div.menu-links-header {
 .select-kit-header-wrapper svg>use[href="#bars"]{
    color: var(--dgb-blue-color) !important;
 }
-
-//  .select-kit-header-wrapper svg > use[href="#wrench"]{
-// color: white;
-// }
-// .select-kit-header-wrapper svg > use[href="#caret-down"]{
-//   color: white;
-// }
 
 .select-kit-header-wrapper svg>use[href]{
   color: white;

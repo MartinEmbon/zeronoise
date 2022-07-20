@@ -1295,22 +1295,3 @@ a:active {
   outline: none !important;
   border: none !important;
 }
-
-
-@media screen and (max-width: 850px){
-  // Topic Overrides
-  .topic-list .topic-list-data{
-    padding: 12px 5px !important;
-  }
-  .topic-list tbody tr .main-link{
-    padding: 48px !important;
-  }
-  .topic-list td.activity, 
-  .topic-list td.views, 
-  .topic-list td.posts-map, 
-  .topic-list th.activity, 
-  .topic-list th.views, 
-  .topic-list th.posts-map {
-      padding: 0 24px !important;
-  }
-}

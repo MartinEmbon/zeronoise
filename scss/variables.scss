@@ -125,7 +125,10 @@
   //--primary-high: #04a060;
   --tertiary-low: #04a060;
   --tertiary: #4a13a0;
-  --header-offset: none !important;
+}
+
+*{
+  --header-offset: none;
 }
 
 $font-size-large: 3rem;

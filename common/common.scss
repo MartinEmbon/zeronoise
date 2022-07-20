@@ -974,6 +974,9 @@ div.menu-links-header {
   box-shadow: 0px 2px 2px rgba(0,0,0,0.12),0px 0px 2px rgba(0,0,0,0.14) !important;
   padding: 20px 32px;
   border: 0px;
+  &::placeholder{
+    color: var(--dgb-blue-color);
+  }
 }
 
 #reply-contro .select-kit .select-kit-header .caret-icon{
@@ -991,22 +994,6 @@ div.menu-links-header {
 
 // End Tweak Reply Control
 
-
-
-
-#reply-control .mini-tag-chooser .select-kit-header {
-  background-color: lightgray;
-  &::placeholder{
-    color: var(--dgb-blue-color);
-  }
-}
-
-#reply-control .category-input .category-chooser .select-kit-header {
-  background-color: lightgray;
-  &::placeholder{
-    color: var(--dgb-blue-color);
-  }
-}
 
 .select-kit.multi-select .multi-select-header .formatted-selection {
   color: var(--dgb-blue-color);

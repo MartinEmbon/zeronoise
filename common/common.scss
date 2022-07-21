@@ -1399,3 +1399,11 @@ svg>use[href="#user"]:hover {
   }
 }
 
+// margin for title-wrapper after topic title
+//the mobile already has its own
+
+.title-wrapper{
+  .topic-category{
+    margin-top: 10%;
+  }
+}

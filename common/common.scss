@@ -1470,9 +1470,16 @@ svg>use[href="#user"]:hover {
   53% {opacity: 0;}
   100% {opacity: 0;}
 }
+@keyframes initSlide{
+  0% {opacity: 1;}
+  20% {opacity: 1;}
+  33% {opacity: 1;}
+  53% {opacity: 0;}
+  100% {opacity: 0;}
+}
 
 .slider .slide:nth-child(1){
-  animation: slider 30s 0s infinite;
+  animation: initSlide 30s 0s infinite;
   animation-timing-function: ease-in-out;
 }
 .slider .slide:nth-child(2){

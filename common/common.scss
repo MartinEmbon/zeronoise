@@ -1394,3 +1394,8 @@ svg>use[href="#user"]:hover {
     }
   }
 }
+
+#login-account-name:focus{
+  outline: none;
+  box-shadow: none !important;
+}

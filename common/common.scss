@@ -1371,6 +1371,9 @@ svg>use[href="#user"]:hover {
 }
 
 .login-welcome-header {
+  .login-title{
+    margin-bottom: 10px;
+  }
   .waving-hand {
     display: none;
   }
@@ -1382,3 +1385,12 @@ svg>use[href="#user"]:hover {
   }
 }
 
+#login-form{
+  #credentials{
+    .input-group{
+      #forgot-password-link{
+        margin-top: 10px;
+      }
+    }
+  }
+}

@@ -1431,9 +1431,8 @@ svg>use[href="#user"]:hover {
     width: 100%;
     height: 100%;
     background-color: #000;
-    visibility: hidden;
     opacity: 0;
-    animation: slider 20s linear infinite;
+    animation: slider 10s linear infinite;
 
     img{
       position: absolute;
@@ -1466,22 +1465,11 @@ svg>use[href="#user"]:hover {
 }
 
 @keyframes slider{
-  0%{
-    visibility: hidden;
-    opacity: 0;
-  }
-  2%{
-    visibility: visible;
-    opacity: 1;
-  }
-  18%{
-    visibility: visible;
-    opacity: 1;
-  }
-  20%,100%{
-    visibility: hidden;
-    opacity: 0;
-  }
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  33% {opacity: 1;}
+  53% {opacity: 0;}
+  100% {opacity: 0;}
 }
 
 .slider .slide:nth-child(1){

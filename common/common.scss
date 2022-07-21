@@ -1363,7 +1363,9 @@ a:active {
     border-radius: 3px;
     transition: .6s;
   }
-  svg>use:hover{
-    color: var(--dgb-blue-color);
-  }
+
+} 
+
+svg>use[href="#user"]:hover{
+  color: var(--dgb-blue-color);
 }

@@ -1364,18 +1364,21 @@ a:active {
     transition: .6s;
   }
 
-} 
+}
 
-svg>use[href="#user"]:hover{
+svg>use[href="#user"]:hover {
   color: var(--dgb-blue-color);
 }
 
-.login-welcome-header{
-  .waving-hand{
+.login-welcome-header {
+  .waving-hand {
     display: none;
   }
 }
 
-.login-left-side{
-  width: 100%;
+.login-modal-body {
+  .login-left-side {
+    width: 100% !important;
+  }
 }
+

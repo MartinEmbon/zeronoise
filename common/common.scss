@@ -1369,3 +1369,13 @@ a:active {
 svg>use[href="#user"]:hover{
   color: var(--dgb-blue-color);
 }
+
+.login-welcome-header{
+  .waving-hand{
+    display: none;
+  }
+}
+
+.login-left-side{
+  width: 100%;
+}

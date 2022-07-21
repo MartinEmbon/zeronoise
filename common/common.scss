@@ -1434,7 +1434,7 @@ svg>use[href="#user"]:hover {
     background-color: #000;
     opacity: 0;
     .slide-inner{
-      max-width: 1000px;
+      max-width: var(--d-max-width);
       margin: 0 auto;
       position: relative;
       height: 100%;

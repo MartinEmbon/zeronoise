@@ -1513,6 +1513,11 @@ svg>use[href="#user"]:hover {
 // footer
 
 .custom-footer{
+  .footer-section-link-wrapper{
+    a{
+      color: #fff;
+    }
+  }
     height: auto;
     padding-top: 2em;
     padding-right: 0px;
@@ -1521,4 +1526,16 @@ svg>use[href="#user"]:hover {
     border: 0;
     font-size: 1em;
     background-color: #4a13a0;
+    .wrap{
+      .flexbox{
+        .second-box{
+          .links{
+            .list{
+
+            }
+          }
+        }
+      }
+    }
 }
+

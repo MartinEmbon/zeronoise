@@ -1496,3 +1496,14 @@ svg>use[href="#user"]:hover {
   animation: slider 30s 20s infinite;
   animation-timing-function: ease-in-out;
 }
+
+// first header navbar
+.above-site-header-outlet{
+  .b-header{
+    .wrap{
+      .contents{
+        margin: 0;
+      }
+    }
+  }
+}

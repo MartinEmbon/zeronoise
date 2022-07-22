@@ -1500,6 +1500,8 @@ svg>use[href="#user"]:hover {
 // first header navbar
 .above-site-header-outlet{
   .b-header{
+    height: auto;
+    border-bottom: 1px solid lightgray;
     .wrap{
       .contents{
         margin: 0;

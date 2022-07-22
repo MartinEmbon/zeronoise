@@ -328,5 +328,16 @@ border: thin solid #4a13a0 !important;
   .topic-list th.posts-map {
       padding: 0 24px !important;
   }
+
+  .topic-list tbody tr .main-link {
+    padding: 0px;
+  }
+  .topic-post .topic-body{
+    padding: 0px;
+  }
+  .topic-post article{
+    padding: 0px;
+  }
+
 }
 

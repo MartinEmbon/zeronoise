@@ -1511,11 +1511,10 @@ svg>use[href="#user"]:hover {
 }
 
 // footer
-
 .custom-footer{
   .first-box{
     .blurb{
-      color: #fff;
+      color: #fff !important;
     }
   }
   .footer-section-link-wrapper{

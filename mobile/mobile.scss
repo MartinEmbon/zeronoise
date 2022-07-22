@@ -338,6 +338,12 @@ border: thin solid #4a13a0 !important;
   .topic-post article{
     padding: 0px;
   }
+  .topic-post .row{
+    padding-top: 0px;
+  }
+  .topic-post:first-child .row{
+    padding-top: 0px;
+  }
 
 }
 

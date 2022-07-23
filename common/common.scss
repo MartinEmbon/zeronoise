@@ -1519,18 +1519,20 @@ svg>use[href="#user"]:hover {
         .links{
           .nav-pills{
             li{
-              position: relative;
+          
               &:last-child{                
                 margin-left: auto;
+                position: relative;
+                &::after{
+                  position: absolute;
+                  top: 50%;
+                  right: 0;
+                  content: "+";
+                  font-size: 12px;
+                  color: white;
+                }
               }
-              &::after{
-                position: absolute;
-                top: 0;
-                right: 0;
-                content: "+";
-                font-size: 12px;
-                color: white;
-              }
+              
               a{
                 //border-bottom: 5px solid transparent;
                 border-bottom: none !important;

@@ -1601,7 +1601,7 @@ svg>use[href="#user"]:hover {
 footer.custom-footer {
   color: white;
   width: 100%;
-  background: white;
+  background: var(--dgb-blue-color);
   display: flex;
   font-size: 1.125rem;
   margin-top: 2rem;
@@ -1694,6 +1694,7 @@ footer.custom-footer {
       justify-content: center;
       a {
         margin-left: 48px;
+        color: #fff;
       }
       @media screen and (max-width: 767px) {
         width: 100%;

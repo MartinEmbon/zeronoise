@@ -1520,7 +1520,9 @@ svg>use[href="#user"]:hover {
           .nav-pills{
             li{
               a{
-                border-bottom-width: none; 
+                //border-bottom: 5px solid transparent;
+                border-bottom: none !important;
+                //border-bottom-width: none; 
                 //border-bottom-style: solid; 
                //border-bottom-color: transparent;
                &:hover{

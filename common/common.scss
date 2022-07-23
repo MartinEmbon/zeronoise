@@ -1599,7 +1599,7 @@ svg>use[href="#user"]:hover {
 
 // footer nu
 footer.custom-footer {
-  color: $violetDark;
+  color: white;
   width: 100%;
   background: $white;
   display: flex;
@@ -1626,7 +1626,7 @@ footer.custom-footer {
       display: flex;
       align-items: center;
       justify-content: center;
-      color: $grayScarpaFlow;
+      color: white;
     }
     .footer-left {
       display: flex;
@@ -1660,7 +1660,7 @@ footer.custom-footer {
         padding: 16px;
         margin-right: 1rem;
         border-radius: 100px;
-        color: $grayChatelle;
+        color: white;
         @media screen and (max-width: 767px) {
           margin-right: 0.25rem;
           padding: 14px;
@@ -1669,18 +1669,18 @@ footer.custom-footer {
           margin-right: 0;
         }
         &:hover {
-          color: $white;
+          color: white;
           &.linkedin {
             background: #0077b5;
           }
           &.facebook {
-            background: $facebook;
+            background: white;
           }
           &.twitter {
-            background: $twitter;
+            background: white;
           }
           &.instagram {
-            background: $instagram;
+            background: white;
           }
           &.youtube {
             background: #ff0000;

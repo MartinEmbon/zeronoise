@@ -1521,8 +1521,8 @@ svg>use[href="#user"]:hover {
   }
 }
 
-.nav-pills>li a:hover{
-  background-color: transparent;
+.nav-pills li a:hover{
+  background-color: transparent !important;
 }
 // footer
 .custom-footer{

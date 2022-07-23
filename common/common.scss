@@ -1516,15 +1516,31 @@ svg>use[href="#user"]:hover {
     .wrap{
       .contents{
         margin: 0;
+        .links{
+          .nav-pills{
+            li{
+              a{
+                border-bottom-width: none; 
+                //border-bottom-style: solid; 
+               //border-bottom-color: transparent;
+               &:hover{
+                background-color: transparent !important;
+                border-bottom: none !important;
+               }
+              }
+            }
+          }
+        }
       }
     }
   }
 }
 
-.nav-pills li a:hover{
-  background-color: transparent !important;
-  border-bottom: none !important;
-}
+
+// .nav-pills li a:hover{
+//   background-color: transparent !important;
+//   border-bottom: none !important;
+// }
 // footer
 .custom-footer{
   .first-box{

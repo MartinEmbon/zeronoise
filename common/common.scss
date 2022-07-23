@@ -1597,7 +1597,8 @@ svg>use[href="#user"]:hover {
     }
 }
 
-// footer nu
+// footer 
+
 footer.custom-footer {
   color: white;
   width: 100%;
@@ -1669,21 +1670,21 @@ footer.custom-footer {
           margin-right: 0;
         }
         &:hover {
-          color: white;
+          color: #fff;
           &.linkedin {
-            background: #0077b5;
+            background: var(--dgb-orange-color);
           }
           &.facebook {
-            background: white;
+            background: #fff;
           }
           &.twitter {
-            background: white;
+            background: #fff;
           }
           &.instagram {
-            background: white;
+            background: #fff;
           }
           &.youtube {
-            background: #ff0000;
+            background: var(--dgb-green-color);
           }
         }
       }
@@ -1694,7 +1695,6 @@ footer.custom-footer {
       justify-content: center;
       a {
         margin-left: 48px;
-        color: #fff;
       }
       @media screen and (max-width: 767px) {
         width: 100%;

@@ -1554,22 +1554,28 @@ svg>use[href="#user"]:hover {
 }
 
 
-// .nav-pills li a:hover{
-//   background-color: transparent !important;
-//   border-bottom: none !important;
-// }
 // footer
 .custom-footer{
   .first-box{
+    position: relative;
+    &::after{
+      position: absolute;
+      top: 0;
+      left: 0;
+      content:url(https://www.digibee.com/wp-content/uploads/2022/05/digibee-logo-white-e1-01.png);
+      
+    }
     .blurb{
       color: #fff !important;
+      display: none;
     }
   }
   .footer-section-link-wrapper{
     a{
       color: #fff;
-      font-size: 16px;
+      font-size: 13px;
       font-family: var(--dgb-font-family);
+      font-weight: 300;
     }
   }
     height: auto;
@@ -1586,11 +1592,12 @@ svg>use[href="#user"]:hover {
           .links{
             .list{
               span{
-                font-size: 17.5px;
+                font-size: 14px;
                 font-family: var(--dgb-font-family);
                 color: #fff;
                 border-bottom: 2px solid #fff !important;
                 padding-bottom: 0;
+                font-weight: 600;
               }
             }
           }

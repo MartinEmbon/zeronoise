@@ -1441,20 +1441,20 @@ svg>use[href="#user"]:hover {
       height: 100%;
     }
     img{
+       position: absolute;
+      object-fit: cover;
+       height: 100%;
+       width: 100%;
+       top:0;
+       left: 0;
       // position: absolute;
-      // object-fit: cover;
+      // object-fit: none;
       // height: 100%;
-      // width: 100%;
-      // top:0;
-      // left: 0;
-      position: absolute;
-      object-fit: none;
-      height: 100%;
-      width: 75%;
-      top: 0;
-      //left: 0;
-      left: 50%;
-      transform: translateX(-50%);
+      // width: 75%;
+      // top: 0;
+      // //left: 0;
+      // left: 50%;
+      // transform: translateX(-50%);
     }
     .content{
       position: absolute;

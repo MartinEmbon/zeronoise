@@ -1510,7 +1510,9 @@ svg>use[href="#user"]:hover {
 .above-site-header-outlet{
   .b-header{
     height: auto;
-    border-bottom: 1px solid lightgray;
+    //border-bottom: 1px solid lightgray;
+    background-color: var(--dgb-orange-color);
+    padding: 5px;
     .wrap{
       .contents{
         margin: 0;

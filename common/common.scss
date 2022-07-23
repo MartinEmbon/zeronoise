@@ -1556,29 +1556,9 @@ svg>use[href="#user"]:hover {
 
 // footer
 .custom-footer{
-  .first-box{
-    position: relative;
-    &::after{
-  
-      // position: absolute;
-      // top: 0;
-      // left: 0;
-    
-      // content: "";
-      // display:inline-block;
-      // height:32px;
-      // width:32px;
-
-      content: '';
-      display: inline-block;
-      background:url("https://www.digibee.com/wp-content/uploads/2022/05/digibee-logo-white-e1-01.png");
-      width: 50px;
-      height: 50px;
-      
-    }
+  .first-box{    
     .blurb{
-      color: #fff !important;
-      display: none;
+      color: #fff !important;    
     }
   }
   .footer-section-link-wrapper{

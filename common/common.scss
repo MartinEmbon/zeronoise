@@ -1525,7 +1525,7 @@ svg>use[href="#user"]:hover {
                 position: relative;
                 &::after{
                   position: absolute;
-                  top: 50%;
+                  top: 9px;
                   right: 0;
                   content: "+";
                   font-size: 12px;

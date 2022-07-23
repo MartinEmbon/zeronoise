@@ -1517,6 +1517,7 @@ svg>use[href="#user"]:hover {
       .contents{
         margin: 0;
         .links{
+          width: 100%;
           .nav-pills{
             li{
           
@@ -1525,10 +1526,10 @@ svg>use[href="#user"]:hover {
                 position: relative;
                 &::after{
                   position: absolute;
-                  top: 11px;
+                  top: 12px;
                   right: 0;
-                  content: "+";
-                  font-size: 12px;
+                  content: "🡪";
+                  font-size: 11px;
                   color: white;
                 }
               }

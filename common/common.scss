@@ -1597,3 +1597,113 @@ svg>use[href="#user"]:hover {
     }
 }
 
+// footer nu
+footer.custom-footer {
+  color: $violetDark;
+  width: 100%;
+  background: $white;
+  display: flex;
+  font-size: 1.125rem;
+  margin-top: 2rem;
+  .footer-wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 40px 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1.5rem;
+      img {
+        width: 80px;
+      }
+    }
+    .footer-copyright {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $grayScarpaFlow;
+    }
+    .footer-left {
+      display: flex;
+      @media screen and (max-width: 767px) {
+        flex-wrap: wrap;
+        .footer-copyright {
+          width: 100%;
+          font-size: 1rem;
+          margin-left: 0;
+          justify-content: left;
+          margin-top: 1.5rem;
+        }
+      }
+    }
+    .footer-right {
+      margin-left: auto;
+      display: flex;
+      @media screen and (max-width: 1060px) {
+        margin-left: 0;
+        margin-top: 1.5em;
+      }
+      @media screen and (max-width: 767px) {
+        flex-wrap: wrap;
+      }
+    }
+    .footer-social {
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        margin-right: 1rem;
+        border-radius: 100px;
+        color: $grayChatelle;
+        @media screen and (max-width: 767px) {
+          margin-right: 0.25rem;
+          padding: 14px;
+        }
+        &:last-of-type {
+          margin-right: 0;
+        }
+        &:hover {
+          color: $white;
+          &.linkedin {
+            background: #0077b5;
+          }
+          &.facebook {
+            background: $facebook;
+          }
+          &.twitter {
+            background: $twitter;
+          }
+          &.instagram {
+            background: $instagram;
+          }
+          &.youtube {
+            background: #ff0000;
+          }
+        }
+      }
+    }
+    .footer-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a {
+        margin-left: 48px;
+      }
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        justify-content: left;
+        a {
+          margin-left: 0;
+          margin-right: 48px;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}

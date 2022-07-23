@@ -1440,11 +1440,17 @@ svg>use[href="#user"]:hover {
       height: 100%;
     }
     img{
+      // position: absolute;
+      // object-fit: cover;
+      // height: 100%;
+      // width: 100%;
+      // top:0;
+      // left: 0;
       position: absolute;
-      object-fit: cover;
+      object-fit: none;
       height: 100%;
       width: 100%;
-      top:0;
+      top: 0;
       left: 0;
     }
     .content{
@@ -1541,8 +1547,8 @@ svg>use[href="#user"]:hover {
                 font-size: 17.5px;
                 font-family: var(--dgb-font-family);
                 color: #fff;
-                border-bottom: 1px solid #fff !important;
-                padding-bottom: 3px;
+                border-bottom: 2px solid #fff !important;
+                padding-bottom: 0;
               }
             }
           }

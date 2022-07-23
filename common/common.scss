@@ -1521,8 +1521,8 @@ svg>use[href="#user"]:hover {
   }
 }
 
-.nav-pills>li:last-child{
-  margin-right: auto;
+.nav-pills>li:hover{
+  background-color: transparent;
 }
 // footer
 .custom-footer{

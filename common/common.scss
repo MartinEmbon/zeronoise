@@ -1519,8 +1519,17 @@ svg>use[href="#user"]:hover {
         .links{
           .nav-pills{
             li{
-              &:last-child{
-                background-color: red;
+              position: relative;
+              &:last-child{                
+                margin-left: auto;
+              }
+              &::after{
+                position: absolute;
+                top: 0;
+                right: 0;
+                content: "+";
+                font-size: 12px;
+                color: white;
               }
               a{
                 //border-bottom: 5px solid transparent;

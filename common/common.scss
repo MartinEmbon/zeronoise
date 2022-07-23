@@ -1519,6 +1519,9 @@ svg>use[href="#user"]:hover {
         .links{
           .nav-pills{
             li{
+              &:last-child{
+                background-color: red;
+              }
               a{
                 //border-bottom: 5px solid transparent;
                 border-bottom: none !important;

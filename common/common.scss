@@ -1630,6 +1630,7 @@ svg>use[href="#user"]:hover {
     &::after {
       @media screen and (max-width:1110px){
         top:-40px;
+        left: 0;
       }
       background-image: url(https://www.digibee.com/wp-content/uploads/2022/05/digibee-logo-white-e1-01.png);
       background-size: 255px;
@@ -1639,7 +1640,7 @@ svg>use[href="#user"]:hover {
       content: "";
       position: absolute;
       top: 50px;
-      left: 0;
+      left: -27px;
       background-repeat: no-repeat;
     }
     }

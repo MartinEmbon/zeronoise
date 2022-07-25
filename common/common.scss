@@ -1909,7 +1909,7 @@ footer.custom-footer {
         svg>use[href="#cog"] {
           color: var(--dgb-blue-color);
           &:hover{
-            color: #fff;
+            color: #fff !important;
           }
         }     
       }

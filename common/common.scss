@@ -1579,6 +1579,15 @@ svg>use[href="#user"]:hover {
     background-color: #4a13a0;
     .wrap{
       .flexbox{
+        .third-box{
+          .social{
+            a:hover{
+              background: var(--dgb-orange-color);
+                color: #fff;
+                 
+            }
+          }
+        }
         .second-box{
           .links{
             .list{
@@ -1597,7 +1606,9 @@ svg>use[href="#user"]:hover {
     }
 }
 
-// footer 
+
+
+// footer no more
 
 footer.custom-footer {
   color: white;

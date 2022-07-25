@@ -1999,3 +1999,13 @@ footer.custom-footer {
 .admin-detail{
   background-color: #fff;
 }
+
+.admin-actions{
+  .btn {
+    margin-right: 10px;
+    &:hover{
+      background-color: var(--dgb-blue-color);
+      pointer-events: none;
+    }
+  }
+}

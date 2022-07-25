@@ -1660,11 +1660,17 @@ svg>use[href="#user"]:hover {
               position: relative;
               //background-color: red;
               &::after{
-                font-size: 11px;
+               
                 position: absolute;
-                top: 0;
+                /* bottom: 0; */
                 left: 0;
                 content: "Florida 2500 Weston Road Suite 105 Weston, FL – 33331";
+                color: #fff;
+                font-size: 13px;
+                font-family: var(--dgb-font-family);
+                font-weight: 300;
+               
+               
                 
               }
             }

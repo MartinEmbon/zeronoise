@@ -706,6 +706,13 @@ div.menu-links-header .menu-links-row button.active:hover {
 }
 
 #quick-access-notifications {
+  .panel-body-bottom{
+    .btn{
+      .d-button-label{
+        color: #fff;
+      }
+    }
+  }
   ul {
     li {
       a {

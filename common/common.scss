@@ -40,13 +40,16 @@
   }
 }
 
-.reply-to{
- .composer-action-title{
-  .d-icon{
-    font-size: 1.5em;
-  }
- }
+#reply-control{
+  .reply-to{
+    .composer-action-title{
+     .d-icon{
+       font-size: 1.5em;
+     }
+    }
+   }
 }
+
 
 p {
   font-family: var(--dgb-font-family);

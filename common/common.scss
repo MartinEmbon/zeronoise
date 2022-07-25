@@ -1959,6 +1959,9 @@ footer.custom-footer {
 //wrench admin pop up menu
 .popup-menu{
   ul{
+    li{
+      background-color: var(--dgb-green-color);
+    }
     .topic-admin-menu-topic{
       .topic-admin-delete{
         button{

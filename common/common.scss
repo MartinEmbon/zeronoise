@@ -1902,6 +1902,7 @@ footer.custom-footer {
 .modal-inner-container{
   .modal-header {
     .modal-close{
+      background-color: transparent;
       svg>use[href="#times"]{
         color: var(--dgb-blue-color);  
       }

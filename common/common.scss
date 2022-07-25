@@ -1610,6 +1610,8 @@ svg>use[href="#user"]:hover {
   margin-top: 1rem;
   //background-color: #6DB3F2;
   background-image: url('https://www.digibee.com/wp-content/uploads/2021/11/cubos-branco-wide.png');
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://www.digibee.com/wp-content/uploads/2021/11/cubos-branco-wide.png");
+}
   background-repeat: repeat;
   background-position: center center;
   background-size: cover;

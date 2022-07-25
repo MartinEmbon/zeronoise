@@ -2005,7 +2005,7 @@ footer.custom-footer {
     margin-right: 10px;
     &:hover{
       background-color: var(--dgb-blue-color);
-      pointer-events: none;
+      transition: none !important;
     }
   }
 }

@@ -1642,7 +1642,7 @@ svg>use[href="#user"]:hover {
       
     &::after {
       @media screen and (max-width:1110px){
-        top:-40px;
+        top:-32px;
         left: 0;
         background-size: 210px;
         //display: none;
@@ -1658,8 +1658,8 @@ svg>use[href="#user"]:hover {
       content: "";
       position: absolute;
       top: 0;
-      top: 50px;
-      left: -27px;
+      //top: 50px;
+      //left: -27px;
       background-repeat: no-repeat;
     }
     }

@@ -1659,13 +1659,13 @@ svg>use[href="#user"]:hover {
               width: 120px;
               position: relative;
               //background-color: red;
-              white-space:pre;
+              //white-space:pre;
               &::after{
                
                 position: absolute;
                 /* bottom: 0; */
                 left: 0;
-                content: "Florida 2500 Weston Road Suite 105 Weston, FL – 33331 \A Brazil Alameda Vicente Pinzon, 54, 9ª andar, Vila OlímpiaSão Paulo – SP";
+                content: "Florida 2500 Weston Road Suite 105 Weston, FL – 33331 \A \A Brazil Alameda Vicente Pinzon, 54, 9ª andar, Vila OlímpiaSão Paulo – SP";
                 color: #fff;
                 font-size: 13px;
                 font-family: var(--dgb-font-family);

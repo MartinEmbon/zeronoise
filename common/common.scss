@@ -1655,7 +1655,7 @@ svg>use[href="#user"]:hover {
               padding-bottom: 0;
               font-weight: 600;
             }
-            &:last-child{
+            &:nth-child(5){
               width: 120px;
               background-color: red;
             }

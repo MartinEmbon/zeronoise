@@ -40,15 +40,22 @@
   }
 }
 
-#reply-control{
-  .reply-to{
+.reply-to{
+  .reply-details{
     .composer-action-title{
-     .d-icon{
-       font-size: 1.5em;
-     }
+      .select-kit{
+        .select-kit-header{
+          .select-kit-header-wrapper{
+            .d-icon{
+              font-size: 2em;
+            }
+          }
+        }
+      }
     }
-   }
+  }
 }
+
 
 
 p {

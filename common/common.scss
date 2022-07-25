@@ -46,6 +46,9 @@
       .select-kit{
         .select-kit-header{
           .select-kit-header-wrapper{
+            svg>use[href="#plus"]{
+              color: #fff;  
+            }
             .d-icon{
               font-size: 1.7em;
               color: #fff !important;

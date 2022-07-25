@@ -1721,6 +1721,9 @@ svg>use[href="#user"]:hover {
       .second-box {
         .links {
           .list {
+            @media screen and (max-width:700px){
+              min-width: 0;
+            }
             span {
               font-size: 14px;
               font-family: var(--dgb-font-family);

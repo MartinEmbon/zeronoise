@@ -1623,7 +1623,8 @@ svg>use[href="#user"]:hover {
 
     .blurb {
       color: #fff !important;
-      display: none;
+      //display: none;
+      max-width: 20%;
       position: relative;
       
     &::after {

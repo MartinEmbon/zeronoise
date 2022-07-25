@@ -1661,7 +1661,7 @@ svg>use[href="#user"]:hover {
               //background-color: red;
               //white-space:pre;
               &::after{
-               
+                margin: 0.5em 0;
                 position: absolute;
                 /* bottom: 0; */
                 left: 0;
@@ -1671,7 +1671,7 @@ svg>use[href="#user"]:hover {
                 font-family: var(--dgb-font-family);
                 font-weight: 300;
                
-               
+                white-space:pre;
                 
               }
             }

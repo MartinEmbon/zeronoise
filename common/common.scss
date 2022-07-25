@@ -1900,6 +1900,15 @@ footer.custom-footer {
 
 // share topic modal
 .modal-inner-container{
+  #bookmark-reminder-modal{
+    .loading-container{
+      .bookmark-options-button{
+        svg>use[href="#cog"] {
+          color: var(--dgb-blue-color);
+        }     
+      }
+    }
+  }
   #modal-alert{
     background-color: var(--dgb-green-color);
   }

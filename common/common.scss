@@ -1606,21 +1606,6 @@ svg>use[href="#user"]:hover {
 
 // footer
 
-.below-footer-outlet{
-  position: relative;
-  &::after{
-    background-image: url(https://www.digibee.com/wp-content/uploads/2021/11/cubos-branco-wide.png);
-    background-repeat: repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: auto;
-    bottom: 0px;
-    height: 120%;
-    transform: translate3d(0px, 41px, 0px);
-  }
-}
 .custom-footer {
   margin-top: 1rem;
  

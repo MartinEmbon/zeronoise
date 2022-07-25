@@ -1635,8 +1635,8 @@ svg>use[href="#user"]:hover {
            // padding: 10px;
             //margin-right: 1rem;
             //border-radius: 100px;
-            width: 2.75em;
-    height: 2.75em;
+            width: 2em;
+    height: 2em;
     border-top-width: 2px;
     border-right-width: 2px;
     border-bottom-width: 2px;
@@ -1653,18 +1653,20 @@ svg>use[href="#user"]:hover {
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
-    font-size: 1em;
+    //font-size: .8em;
     background-color: transparent;
 
-    font-size: 1.5em;
-    width: auto;
-    border: 0;
+    font-size: 1.3em;
+    //width: auto;
+    //border: 0;
     color: rgb(255,255,255);
-            &:hover {
-              background: rgb(255,255,255);
-              color: var(--dgb-blue-color);
-             
-           }
+            .d-icon:hover{
+              &:hover {
+                background: rgb(255,255,255);
+                color: var(--dgb-blue-color);
+               
+             }
+            }
           }
 
         }

@@ -2003,11 +2003,11 @@ footer.custom-footer {
 .admin-actions{
   button {
     margin-right: 10px;
-    background-color: var(--dgb-blue-color);
-    color: #fff;
+    background-color: var(--dgb-blue-color) !important;
+    color: #fff !important;
     &:hover{
-      background-color: var(--dgb-blue-color);
-      color: #fff;
+      background-color: var(--dgb-blue-color) !important;
+      color: #fff !important;
     }
   }
 }

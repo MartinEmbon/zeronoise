@@ -1928,3 +1928,13 @@ footer.custom-footer {
   }
 }
 
+//wrench admin pop up menu
+.popup-menu{
+  ul{
+    .topic-admin-menu-topic{
+      .topic-admin-multi-select{
+        background-color: var(--dgb-orange-color);
+      }
+    }
+  }
+}

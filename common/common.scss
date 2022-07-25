@@ -1601,6 +1601,15 @@ svg>use[href="#user"]:hover {
 // footer
 .custom-footer {
   .first-box {
+    .heading{
+      position: relative;
+      &::after{
+        position: absolute;
+        top:0;
+        left: 0;
+        content: url("https://www.digibee.com/wp-content/uploads/2022/05/digibee-logo-white-e1-01.png");
+      }
+    }
     .blurb {
       color: #fff !important;
     }
@@ -1611,7 +1620,7 @@ svg>use[href="#user"]:hover {
       color: #fff;
       font-size: 13px;
       font-family: var(--dgb-font-family);
-      font-weight: 300;
+      font-weight: 400;
       &:hover{
         color: #abb8c3;
       }
@@ -1660,6 +1669,7 @@ svg>use[href="#user"]:hover {
     //width: auto;
     //border: 0;
     color: rgb(255,255,255);
+    transform: .3s;
     &:hover{
       background: rgb(255,255,255);
     }
@@ -1701,7 +1711,7 @@ svg>use[href="#user"]:hover {
                 font-size: 13px;
                 font-family: var(--dgb-font-family);
                 font-weight: 300;
-               
+                color: #fff;
                 white-space:pre-line;
                 
               }

@@ -2001,10 +2001,14 @@ footer.custom-footer {
 }
 
 .admin-actions{
+  
   button {
     margin-right: 10px;
     background-color: var(--dgb-blue-color) !important;
     color: #fff !important;
+    &:first-child{
+      margin-left: 10px;
+    }
     &:hover{
       background-color: var(--dgb-blue-color) !important;
       color: #fff !important;

@@ -1600,6 +1600,10 @@ svg>use[href="#user"]:hover {
 
 // footer
 .custom-footer {
+  @media screen and (max-width:412px){
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .first-box {
     
     margin-right: 18em;
@@ -1637,7 +1641,8 @@ svg>use[href="#user"]:hover {
       //background-image: url(https://www.digibee.com/wp-content/uploads/2022/05/digibee-logo-white-e1-01.png);
       background-image: url(https://www.digibee.com/wp-content/uploads/2022/04/Digibee-LogoPack-2022-13.png);
       height: 226px;
-      background-size: 255px;
+      //background-size: 255px;
+      background-size: 210px;
       width: 257px;
       left: -20;
       //height: 200px;

@@ -1911,14 +1911,14 @@ footer.custom-footer {
   #bookmark-reminder-modal{
     .loading-container{
       .bookmark-options-button{
-        &:hover{
-          background-color: var(--dgb-blue-color);
-        }
+        // &:hover{
+        //   background-color: var(--dgb-blue-color);
+        // }
         svg>use[href="#cog"] {
           color: var(--dgb-blue-color);  
-          &:hover{
-            fill: #fff;
-          }      
+          // &:hover{
+          //   fill: #fff;
+          // }      
         }     
       }
     }

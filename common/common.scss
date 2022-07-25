@@ -1907,7 +1907,10 @@ footer.custom-footer {
           background-color: var(--dgb-blue-color);
         }
         svg>use[href="#cog"] {
-          color: var(--dgb-blue-color);        
+          color: var(--dgb-blue-color);  
+          &:hover{
+            fill: #fff;
+          }      
         }     
       }
     }
@@ -1917,6 +1920,3 @@ footer.custom-footer {
   }
 }
 
-.modal-inner-container #bookmark-reminder-modal .loading-container .bookmark-options-button svg>use[href="#cog"]:hover{
-  color: red;
-}

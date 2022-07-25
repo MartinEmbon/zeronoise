@@ -1932,7 +1932,10 @@ footer.custom-footer {
 .popup-menu{
   ul{
     .topic-admin-menu-topic{
-      .topic-admin-multi-select{
+      // .topic-admin-multi-select{
+      //   background-color: var(--dgb-orange-color) !important;
+      // }
+      li{
         background-color: var(--dgb-orange-color) !important;
       }
     }

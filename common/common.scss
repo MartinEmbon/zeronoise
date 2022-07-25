@@ -40,6 +40,23 @@
   }
 }
 
+.reply-to{
+  .reply-details{
+    .composer-action-title{
+      .select-kit{
+        .select-kit-header{
+          .select-kit-header-wrapper{
+            .d-icon{
+              font-size: 1.57em;
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 p {
   font-family: var(--dgb-font-family);
   font-style: normal;

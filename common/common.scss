@@ -1645,21 +1645,21 @@ svg>use[href="#user"]:hover {
         top:-40px;
         left: 0;
         background-size: 210px;
-        display: none;
+        //display: none;
       }
-      //background-image: url(https://www.digibee.com/wp-content/uploads/2022/05/digibee-logo-white-e1-01.png);
-      background-image: url(https://www.digibee.com/wp-content/uploads/2022/04/Digibee-LogoPack-2022-13.png);
-      height: 226px;
-      //background-size: 255px;
-      background-size: 210px;
+      background-image: url(https://www.digibee.com/wp-content/uploads/2022/05/digibee-logo-white-e1-01.png);
+      //background-image: url(https://www.digibee.com/wp-content/uploads/2022/04/Digibee-LogoPack-2022-13.png);
+      //height: 226px;
+      background-size: 255px;
+      //background-size: 210px;
       width: 257px;
-      left: -20;
-      //height: 200px;
+      //left: -20;
+      height: 200px;
       content: "";
       position: absolute;
       top: 0;
-      //top: 50px;
-      //left: -27px;
+      top: 50px;
+      left: -27px;
       background-repeat: no-repeat;
     }
     }

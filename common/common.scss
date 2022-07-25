@@ -1643,7 +1643,8 @@ svg>use[href="#user"]:hover {
       //height: 200px;
       content: "";
       position: absolute;
-      top: 50px;
+      top: 0;
+      //top: 50px;
       //left: -27px;
       background-repeat: no-repeat;
     }

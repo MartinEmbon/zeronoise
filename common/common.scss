@@ -2001,7 +2001,7 @@ footer.custom-footer {
 }
 
 .admin-actions{
-  .button {
+  button {
     margin-right: 10px;
     &:hover{
       background-color: var(--dgb-blue-color);
@@ -2009,3 +2009,4 @@ footer.custom-footer {
     }
   }
 }
+

@@ -1932,6 +1932,13 @@ footer.custom-footer {
 .popup-menu{
   ul{
     .topic-admin-menu-topic{
+      .topic-admin-delete{
+        button{
+          .d-button-label{
+            color: #fff !important;
+          }
+        }
+      }
       // .topic-admin-multi-select{
       //   background-color: var(--dgb-orange-color) !important;
       // }

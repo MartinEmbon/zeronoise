@@ -951,7 +951,9 @@ div.menu-links-header {
   transition: none;
   //:background-color 1s;
 }
-
+.topic-list a.title{
+  font-weight: 400 !important;
+}
 // editor container
 .d-editor-container {
   .d-editor-textarea-column {
